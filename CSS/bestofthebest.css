@@ -16,23 +16,31 @@ h1{font-size: 100px;}
 
 .twosections{ padding: auto;margin: auto; font-size:15;}
 
-.section{height: 200px;
+.section {
+    height: 200px;
     width: 65%;
     float: left;
     margin: auto;
-    padding: 10px;
-    background: gray;}
+    background: gray;
+    padding-left: 15px;
+}
 
-.sidearticle{height: 200px;
-    width: 30%;
+.sidearticle{
+    height: 200px;
+    width: calc(35% - 33px);
     float: right;
+    padding-left: 15px;
+    background: gray;
+    border-left-color: black;
     margin: auto;
-    padding: 10px;
-    background: gray;}
+    border-left-style: solid;
 
-.mainarticle{margin:auto; padding: 500px}
+}
 
-Footer{text-align: center;padding: 500px;}
+.mainarticle{margin:auto;text-align: center}
+
+
+Footer{text-align: center;}
 
 body{background: bisque ;}
 
