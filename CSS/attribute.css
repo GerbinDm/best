@@ -1,0 +1,90 @@
+html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
+
+    height:100%;
+    width:100%;
+}
+
+header{text-align: center;font-size: 200%;}
+
+h1{font-size: 100px;}
+
+.menulist{
+    height: 20px}
+
+a{text-decoration: none;
+color: bisque;
+}
+
+
+nav{
+    height:10%;
+    margin-top: 50px;
+}
+
+.item1{
+    display: inline-block;width: 24%; font-size: 20px;text-align: center;
+    text-decoration: none;
+;}
+.item2{
+    display: inline-block;width: 24%; font-size: 20px;text-align: center
+;}
+.item3{
+    display: inline-block;width: 24%; font-size: 20px;text-align: center
+;}
+.item4{
+    display: inline-block;width: 24%;  font-size: 20px;text-align: center
+
+;}
+
+.twosections{ padding-top: 25px;margin: auto; font-size:15;
+height: 20%;
+}
+
+.section {
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin: auto;
+
+    padding-left: 15px;
+}
+
+.sidearticle{
+    height: 200px;
+    width: calc(75% - 33px);
+    float: right;
+    padding-left: 15px;
+
+    border-left-color: black;
+    margin: auto;
+    border-left-style: solid;
+
+}
+
+
+}
+
+.mainarticle{
+    text-align: center;
+    margin:auto;
+    ;
+}
+
+main{
+    height: 50%;
+    margin-top: 100px;
+    text-align: center;
+;
+
+}
+
+Footer{
+    text-align: center;
+    height: 10%;
+    float: bottom;
+}
+
+body{
+    height: 100%;
+}
+
