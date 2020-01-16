@@ -1,0 +1,47 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.oboi7.com/content/images/99/7d/997d621e5926bef4081726aac49f5b16d684b5be.jpg?oboi7.com-97802.jpg");
+}
+
+body{
+    height: 100%;
+}
+
+div{
+    color: whitesmoke;
+    height: 60%;
+}
+
+nav{
+
+    height: 40%;
+}
+
+.item1{
+    display: inline-block;width: 24%; font-size: 20px;text-align: center;
+    text-decoration: none;
+;}
+.item2{
+    display: inline-block;width: 24%; font-size: 20px;text-align: center
+;}
+.item3{
+    display: inline-block;width: 24%; font-size: 20px;text-align: center
+;}
+.item4{
+    display: inline-block;width: 24%;  font-size: 20px;text-align: center}
+
+a{
+    text-decoration: none;
+    color: bisque;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    margin-top: 5%;
+    padding-top: 4%;
+;
+;
+
+}
