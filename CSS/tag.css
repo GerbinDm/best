@@ -61,11 +61,15 @@ height: 20%;
 
 }
 
-
+ol{
+    list-style-type: circle;
+    padding: 125px;
 }
 
+
+
 .mainarticle{
-    text-align: center;
+
     margin:auto;
     ;
 }
