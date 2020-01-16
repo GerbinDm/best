@@ -22,19 +22,23 @@ nav{
 }
 
 .item1{
-    display: inline-block;width: 24%; font-size: 20px;text-align: center;
+    display: inline-block;width: 19%; font-size: 20px;text-align: center;
     text-decoration: none;
 ;}
 .item2{
-    display: inline-block;width: 24%; font-size: 20px;text-align: center
+    display: inline-block;width: 19%; font-size: 20px;text-align: center
 ;}
 .item3{
-    display: inline-block;width: 24%; font-size: 20px;text-align: center
+    display: inline-block;width: 19%; font-size: 20px;text-align: center
 ;}
 .item4{
-    display: inline-block;width: 24%;  font-size: 20px;text-align: center
-
+    display: inline-block;width: 19%;  font-size: 20px;text-align: center
 ;}
+
+.item5
+{display: inline-block;width: 19%;  font-size: 20px;text-align: center
+;}
+
 
 .twosections{ padding-top: 25px;margin: auto; font-size:15;
 height: 20%;
