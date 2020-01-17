@@ -44,7 +44,7 @@ height: 20%;   padding-left: 15px;
 }
 
 .section {
-    height: 200px;
+    height: 500px;
     width: 25%;
     float: left;
     margin: auto;
@@ -53,7 +53,7 @@ height: 20%;   padding-left: 15px;
 }
 
 .sidearticle{
-    height: 200px;
+    height: 500px;
     width: calc(75% - 33px);
     float: right;
     padding-left: 15px;
@@ -71,20 +71,21 @@ ul{
 }
 
 
-ol{
+ol li{
     list-style-type: circle;
-    list-style-position: inside
+    list-style-position: inside;
+
 }
 
 .blockitem{
 
-    margin: -20px;
+
     padding-left: 50px;
 }
 
 .mainarticle{
-
-    margin:auto;
+    text-align: center;
+    margin: auto;
     padding: 125px;
 }
 
@@ -98,6 +99,7 @@ main{
 }
 
 Footer{
+    margin: 50px;
     text-align: center;
     height: 10%;
     float: bottom;
@@ -107,6 +109,10 @@ body{
     height: 100%;
 }
 
-li{
+ul li{
+    padding-top: 25px;font-size: large;
+}
+
+ol li{
     padding-top: 25px;font-size: large;
 }

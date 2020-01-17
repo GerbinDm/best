@@ -81,6 +81,7 @@ main{
 }
 
 Footer{
+    margin: 50px;
     text-align: center;
     height: 10%;
     float: bottom;
