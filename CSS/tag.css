@@ -42,6 +42,7 @@ nav{
 .twosections{ padding-top: 25px;margin: auto;
     font-size:15px;
     padding-left: 15px;
+    display:table;
 }
 
 .section {
@@ -108,7 +109,7 @@ ol li{
 
 }
 main{
-    padding-top: 200px;
+    padding-top: 50px;
     height: auto;
     text-align: center;
     font-size: large;
