@@ -44,7 +44,7 @@ height: 20%;   padding-left: 15px;
 }
 
 .section {
-    height: 500px;
+    height: 1400px;
     width: 25%;
     float: left;
     margin: auto;
@@ -53,11 +53,12 @@ height: 20%;   padding-left: 15px;
 }
 
 .sidearticle{
-    height: 500px;
+    height: 1400px;
     width: calc(75% - 33px);
     float: right;
-    padding-left: 15px;
+    padding-left: 10px;
     font-size: large;
+    text-align: justify;
 
     border-left-color: black;
     margin: auto;
@@ -77,21 +78,26 @@ ol li{
 
 }
 
+p {
+    padding-left: 25px;
+}
+
 .blockitem{
 
 
-    padding-left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .mainarticle{
     text-align: center;
     margin: auto;
-    padding: 125px;
+    padding: 15px;
 }
 
 main{
     height: 50%;
-    margin-top: 100px;
+    margin-top: 700px;
     text-align: center;
     font-size: large;
 ;
@@ -115,4 +121,9 @@ ul li{
 
 ol li{
     padding-top: 25px;font-size: large;
+
+
+}
+
+
 }
