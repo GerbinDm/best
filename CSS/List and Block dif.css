@@ -79,7 +79,10 @@ nav{
     font-size:15px;
     padding-left: 15px;
     display:table;
+<<<<<<< HEAD
     height: 50%;
+=======
+>>>>>>> master
 }
 
 .section {
@@ -88,7 +91,11 @@ nav{
     float: left;
     margin: auto;
 
+<<<<<<< HEAD
     padding-left: 30px;
+=======
+    padding-left: 15px;
+>>>>>>> master
 }
 
 .sidearticle{

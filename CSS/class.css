@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> master
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,12 +28,15 @@ time, mark, audio, video {
 
 
 
+<<<<<<< HEAD
 
 
 
 
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> master
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
 
     height: auto;
@@ -55,23 +61,26 @@ nav{
 }
 
 .item1{
-    display: inline-block;width: 19%; font-size: 20px;text-align: center;
-    text-decoration: none;
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+    text-decoration: none;cursor: grabbing;
 ;}
 .item2{
-    display: inline-block;width: 19%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
 ;}
 .item3{
-    display: inline-block;width: 19%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
 ;}
 .item4{
-    display: inline-block;width: 19%;  font-size: 20px;text-align: center
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
 ;}
 
 .item5
-{display: inline-block;width: 19%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
 ;}
 
+.item6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
 
 .center{ padding-top: 25px;margin: auto;
     font-size:15px;
@@ -168,10 +177,14 @@ main{
 }
 
 Footer{
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     margin: 250px;
 >>>>>>> Stashed changes
+=======
+    margin: 50px;
+>>>>>>> master
     text-align: center;
     height: 10%;
     float: bottom;

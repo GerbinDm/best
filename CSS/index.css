@@ -1,3 +1,35 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 html{
     width: 100%;
     height: 100%;
@@ -15,30 +47,38 @@ div{
 
 nav{
 
-    height: 40%;
+    height: 20%;
 }
 
 .item1{
-    display: inline-block;width: 19%; font-size: 20px;text-align: center;
-    text-decoration: none;
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+
 ;}
 .item2{
-    display: inline-block;width: 19%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
 ;}
 .item3{
-    display: inline-block;width: 19%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
 ;}
 .item4{
-    display: inline-block;width: 19%;  font-size: 20px;text-align: center}
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
 .item5
-{display: inline-block;width: 19%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.item6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
 ;}
 
 a{
     text-decoration: none;
     color: bisque;
 }
-
+a:hover{
+    color: lime;
+}
 p{
     text-align: center;
     font-size: large;
@@ -49,3 +89,38 @@ p{
 }
 
 
+.menulist{
+    height: 20%;
+}
+
+
+.Inv1{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+
+;}
+.Inv2{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv3{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv4{
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv5
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+button {
+
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    padding-top: 10px;
+}
+.Inv1 .Inv2 .Inv3 .Inv4 .Inv5 .Inv6
+{justify-content: space-between}
