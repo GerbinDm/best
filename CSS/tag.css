@@ -63,22 +63,23 @@ nav{
 .item5
 {display: inline-block;width: 19%;  font-size: 20px;text-align: center
 ;}
-
-
-        .twosections{ padding-top: 25px;margin: auto; font-size:15px;
-            height: 20%;   padding-left: 15px;
-
-.item6
-{display: inline-block;width: 16%;  font-size: 20px;text-align: center
-;}
-
-
+.twosections {
+    padding-top: 25px;
+    margin: auto;
+    font-size: 15px;
+    height: 20%;
+    padding-left: 15px;
+}
+.item6 {
+    display: inline-block;
+    width: 16%;
+    font-size: 20px;
+    text-align: center;
+}
 .twosections{ padding-top: 25px;
     font-size:15px;
     padding-left: 15px;
     display:table;
-
-
 }
 
 .section {
