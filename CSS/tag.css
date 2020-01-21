@@ -62,7 +62,7 @@ nav{
     padding-right: 25px;
     margin: auto;
     padding-left: 25px;
-    line-height: 1500%;
+
 }
 
 ul{
@@ -71,7 +71,7 @@ ul{
 
 ul li{
     font-size: large;
-    line-height: 2000%;
+
 }
 
 
@@ -85,7 +85,7 @@ ol li{
  p {
     padding-left: 25px;
     color: black;
-    line-height: 500%;
+
 
 
 }
@@ -109,7 +109,7 @@ ol li{
 }
 main{
     padding-top: 200px;
-    height: 400px;
+    height: auto;
     text-align: center;
     font-size: large;
 ;
@@ -124,7 +124,7 @@ Footer{
 }
 
 body{
-    height: 100%;
+    height: auto;
 }
 
 ul li{
@@ -135,8 +135,9 @@ ol li{
     padding-top: 25px;font-size: large;
 
 
+
 }
 
 div{
-    height: 1325px;
+    height: auto;
 }
