@@ -60,7 +60,7 @@ function FifthTask(){
 
 
 
-function seventhTask (){
+function sixthTask (){
     var a=prompt('input  1  number'),d;
     var b=prompt('input  2  number');
     var c=prompt('input  3  number');
