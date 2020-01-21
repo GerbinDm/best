@@ -20,9 +20,6 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-
-
-
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
 
     height:100%;
@@ -60,21 +57,25 @@ nav{
     display: inline-block;width: 19%;  font-size: 20px;text-align: center
 ;}
 
-.item5
-{display: inline-block;width: 19%;  font-size: 20px;text-align: center
-;}
+.item5 {
+    display: inline-block;
+    width: 19%;
+    font-size: 20px;
+    text-align: center;
+}
+.item6 {
+    display: inline-block;
+    width: 19%;
+    font-size: 20px;
+    text-align: center;
+}
 .twosections {
     padding-top: 25px;
     margin: auto;
     font-size: 15px;
     height: 20%;
     padding-left: 15px;
-}
-.item6 {
-    display: inline-block;
-    width: 16%;
-    font-size: 20px;
-    text-align: center;
+
 }
 .twosections{ padding-top: 25px;
     font-size:15px;
@@ -108,7 +109,7 @@ ul {
     font-size: large;
 }
 ul li{
->>>>>>> Stashed changes
+
 font-size: large;
 }
 
