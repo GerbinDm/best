@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> master
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,18 +21,6 @@ time, mark, audio, video {
 }
 
 
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
->>>>>>> Stashed changes
-=======
->>>>>>> master
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
 
     height: auto;
@@ -177,14 +161,11 @@ main{
 }
 
 Footer{
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+
     margin: 250px;
->>>>>>> Stashed changes
-=======
-    margin: 50px;
->>>>>>> master
+
+
+
     text-align: center;
     height: 10%;
     float: bottom;
