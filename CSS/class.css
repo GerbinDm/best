@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> master
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,10 +28,19 @@ time, mark, audio, video {
 
 
 
+<<<<<<< HEAD
+
+
+
+
+
+>>>>>>> Stashed changes
+=======
+>>>>>>> master
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
 
-    height:100%;
-    width:100%;
+    height: auto;
+    width:auto;
 }
 
 header{text-align: center;font-size: 200%;}
@@ -34,10 +48,10 @@ header{text-align: center;font-size: 200%;}
 h1{font-size: 100px;}
 
 .menulist{
-    height: 20px}
+    height: 40px}
 
 a{text-decoration: none;
-color: bisque;
+    color: bisque;
 }
 
 
@@ -68,50 +82,109 @@ nav{
 {display: inline-block;width: 16%;  font-size: 20px;text-align: center
 ;}
 
-.twosections{ padding-top: 25px;margin: auto; font-size:15;
-height: 20%;
+.center{ padding-top: 25px;margin: auto;
+    font-size:15px;
+    padding-left: 15px;
+    display: table;
+    height: 100%;
 }
+
+.leftsidelist{
+    float: left;
+
+    width: 25%;
+    padding-left: 15px;
+
+}
+
 
 .section {
-    height: 200px;
-    width: 25%;
-    float: left;
-    margin: auto;
 
     padding-left: 15px;
+    height: 50%;
+
 }
+
+.section2 {
+
+
+
+    padding-left: 15px;
+    height: 50%;
+
+
+}
+
+
 
 .sidearticle{
-    height: 200px;
+
     width: calc(75% - 33px);
     float: right;
-    padding-left: 15px;
+    padding-left: 10px;
+    font-size: large;
+    text-align: justify;
 
-    border-left-color: black;
     margin: auto;
-    border-left-style: solid;
+
+
+}
+
+ul{
+    font-size: large;
+}
+
+ul li{
+    font-size: large;
 
 }
 
 
+ol li{
+    list-style-type: circle;
+    list-style-position: inside;
+
+}
+
+p {
+    padding-left: 25px;
+}
+
+.blockitem{
+
+
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .mainarticle{
     text-align: center;
-    margin:auto;
-    ;
-}
+    margin: auto;
+    padding: 15px;
 
+}
+.maincontent {
+
+
+}
 main{
-    height: 50%;
-    margin-top: 100px;
+    padding-top: 200px;
+    height: 400px;
     text-align: center;
+    font-size: large;
 ;
 
 }
 
 Footer{
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+    margin: 250px;
+>>>>>>> Stashed changes
+=======
     margin: 50px;
+>>>>>>> master
     text-align: center;
     height: 10%;
     float: bottom;
@@ -121,3 +194,18 @@ body{
     height: 100%;
 }
 
+ul li{
+    padding-top: 25px;font-size: large;
+}
+
+ol li{
+    padding-top: 25px;font-size: large;
+
+
+}
+
+div{
+    height: 1325px;
+
+
+}
