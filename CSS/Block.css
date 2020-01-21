@@ -85,12 +85,20 @@ nav{
     float: left;
     margin: auto;
 
+<<<<<<< HEAD
+    padding-left: 30px;
+=======
     padding-left: 15px;
+>>>>>>> master
 }
 
 .sidearticle{
 
+<<<<<<< HEAD
+    width: calc(75% - 48px);
+=======
     width: calc(75% - 33px);
+>>>>>>> master
     float: right;
     padding-left: 10px;
     font-size: large;
