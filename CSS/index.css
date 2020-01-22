@@ -47,30 +47,29 @@ div{
 
 nav{
 
-    height: 40%;
+    height: 20%;
 }
 
-.item1 {
-    display: inline-block;
-    width: 19%;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-}
+.item1{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
 
+;}
 .item2{
-    display: inline-block;width: 19%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
 ;}
-
 .item3{
-    display: inline-block;width: 21%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
 ;}
-
 .item4{
-    display: inline-block;width: 19%;  font-size: 20px;text-align: center}
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
 
 .item5
-{display: inline-block;width: 19%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.item6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
 ;}
 
 a{
@@ -90,3 +89,29 @@ p{
 }
 
 
+.menulist{
+    height: 20%;
+}
+
+
+.Inv1{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+
+;}
+.Inv2{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv3{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv4{
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv5
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
