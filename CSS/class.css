@@ -62,18 +62,18 @@ nav{
 .leftsidelist{
     float: left;
     width: 25%;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 .section {
-    padding-left: 15px;
+    padding-left: 30px;
     height: 50%;
 }
 .section2 {
-    padding-left: 15px;
+    padding-left: 30px;
     height: 50%;
 }
 .sidearticle{
-    width: calc(75% - 33px);
+    width: calc(75% - 80px);
     float: right;
     padding-left: 10px;
     font-size: large;
