@@ -39,8 +39,21 @@ nav{
 {display: inline-block;width: 19%;  font-size: 20px;text-align: center
 ;}
 
+<<<<<<< Updated upstream
 .twosections{ padding-top: 25px;margin: auto; font-size:15px;
 height: 20%;   padding-left: 15px;
+=======
+.item6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+
+.twosections{ padding-top: 25px;
+    font-size:15px;
+    padding-left: 15px;
+    display:table;
+
+>>>>>>> Stashed changes
 }
 
 .section {
@@ -49,7 +62,7 @@ height: 20%;   padding-left: 15px;
     float: left;
     margin: auto;
 
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .sidearticle{
@@ -65,8 +78,15 @@ height: 20%;   padding-left: 15px;
 
 }
 
+<<<<<<< Updated upstream
 
 ul{
+=======
+ul {
+    font-size: large;
+}
+ul li{
+>>>>>>> Stashed changes
     font-size: large;
 }
 
