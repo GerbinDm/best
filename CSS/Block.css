@@ -57,6 +57,7 @@ nav{
     font-size:15px;
     padding-left: 15px;
     display: table;
+    height:auto;
 }
 .section {
 
@@ -98,8 +99,8 @@ p {
 .maincontent {
 }
 main{
-    padding-top: 200px;
-    height: 400px;
+    padding-top: 100px;
+
     text-align: center;
     font-size: large;
 }
