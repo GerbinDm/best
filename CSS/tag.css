@@ -78,8 +78,9 @@ nav{
 .twosections{ padding-top: 25px;
     font-size:15px;
     padding-left: 15px;
-    display:table;
+
     height: 50%;
+    margin: auto;
 }
 
 .section {
