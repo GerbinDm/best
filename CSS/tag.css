@@ -176,3 +176,5 @@ ol li{
 div{
     height: 1325px;
 }
+
+ol main{list-style-type: none}
