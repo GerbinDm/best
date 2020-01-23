@@ -58,12 +58,18 @@ html {
     text-decoration: none;
     list-style: none;
     padding: 0;
-    color: #1a1a1a;
+    margin-left: 10px;
     text-transform: uppercase;
+    color: white ;
+    color: black;
+
 }
 .right_side nav ul li:first-child a {
-    color: white ;
-    background:#4ca54c;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    color: #0085C3;
+    background:white;
 
 }
 
@@ -112,7 +118,7 @@ header{
     padding: 14px 0;
 }
 .right_side nav ul a:hover{
-    color: #0085c3;
+    color: #ff8145;
 }
 slider{
     background: #00618d;
@@ -230,16 +236,21 @@ footer .socials .icon {
     opacity: 0.9;
     color: #fff;
     transition: opacity 0.5s;
+    text-align: center;
+    justify-content: center;
 }
 
-footer .socials .icon:hover {
-    opacity: 1;
-}
 
+
+footer .socials .icon.google {
+    background: #efea3d;
+}
+footer .socials .icon.instagram {
+    background: #ef7055;
+}
 footer .socials .icon.twitter {
     background: #00b0ef;
 }
-
 
 
 
