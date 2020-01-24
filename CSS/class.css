@@ -79,6 +79,7 @@ nav{
     font-size: large;
     text-align: justify;
     margin: auto;
+    padding-right: 25px;
 }
 ul{
     font-size: large;
@@ -128,6 +129,22 @@ ol li{
 }
 div{
     height: 1325px;
+    width: 100%;
 }
 
+
+
+table{
+    width:100%; display: contents;
+
+
+}
+
+td{
+    padding-right:25px
+}
+
+th{
+    padding-top: 25px;
+}
 
