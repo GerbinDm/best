@@ -28,8 +28,13 @@
     width: 100%;
 }
 .col1 {
-    max-width: 450px;
+    max-width: 550px;
 max-height: 450px;
+    transition: 5s;
+}
+
+.col1:hover {
+        transform: scale(1.2,1.2);
 }
 .content {
     display: flex;
@@ -49,6 +54,7 @@ html {
     display: flex;
     align-content: center;
     align-items: center;
+    margin: 0px 25px 0px 25px;
 }
 
 .right_side nav ul li a {
@@ -125,7 +131,13 @@ slider{
     color: white;
     padding: 91px 0 50px 0;
     width: 100%;
+}
+.content_right{
+    width: auto;
 
+    font-family:'Oswald';
+    float: left;
+    margin-right: 75px;
 }
 .content_left{
     width: 50%;
@@ -134,12 +146,7 @@ slider{
     float: left;
     padding-left: 0;
     margin-top: 75px;
-}
-.content_right{
-    width: auto;
-    padding: 28px 0 28px 28px;
-    font-family:'Oswald';
-    float: left;
+    margin-left: 25px;
 }
 .buttons{
     padding: 28px 0;
@@ -162,9 +169,7 @@ slider{
     padding: 0;
     margin: 0;
 }
-.col1{
-    width: max-content;
-}
+
 .down{
     background: #4ca54c ;
     text-decoration: none;
@@ -217,13 +222,20 @@ main{
     width: 36%;
     background: #eeeeee; ;
 }
+.photos{
+    height: 250px;
+    min-height: 250px;
+    min-width: 500px;
+    margin-top: 100px;
+
+}
 footer {
-    color: #a6a6a6;
+    color: rgba(0, 0, 0, 0);
     font-size: 1.3rem;
 }
 footer .socials {
     padding: 30px 0;
-    background: rgba(0, 0, 0, .9);
+    background: #0085c3;
     text-align: center;
 }
 
@@ -234,7 +246,7 @@ footer .socials .icon {
     margin: 3px;
     border-radius: 3px;
     opacity: 0.9;
-    color: #fff;
+    color: #000000;
     transition: opacity 0.5s;
     text-align: center;
     justify-content: center;
@@ -249,9 +261,11 @@ footer .socials .icon.instagram {
     background: #ef7055;
 }
 footer .socials .icon.twitter {
-    background: #00b0ef;
+    background: #0d23ef;
 }
-
+footer .socials .icon.site {
+    background: #15ef3a;
+}
 
 
 
