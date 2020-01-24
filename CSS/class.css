@@ -138,13 +138,32 @@ table{
     width:100%; display: contents;
 
 
+
+}
+
+tr{
+    width: 100%;
+
+    margin: auto;
+
 }
 
 td{
-    padding-right:25px
+
+    width: 500px;
+
 }
 
 th{
     padding-top: 25px;
+    width: auto;
+    margin: auto;
 }
 
+.tablename{
+    padding: 25px;
+}
+
+tbody{
+    width: 100%;
+}
