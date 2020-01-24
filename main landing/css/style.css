@@ -122,6 +122,7 @@ header{
     left: 0;
     display: flex;
     padding: 14px 0;
+    z-index: 99999;
 }
 .right_side nav ul a:hover{
     color: #ff8145;
