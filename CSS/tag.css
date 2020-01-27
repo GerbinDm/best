@@ -78,8 +78,9 @@ nav{
 .twosections{ padding-top: 25px;
     font-size:15px;
     padding-left: 15px;
+    display: table;
 
-    height: 50%;
+    height: 70%;
     margin: auto;
 }
 
@@ -101,6 +102,14 @@ nav{
     padding-right: 25px;
     margin: auto;
     padding-left: 25px;
+
+
+
+}
+
+section{
+    padding-top: 50px;
+    line-height: 200%;
 
 }
 
@@ -174,5 +183,7 @@ ol li{
 }
 
 div{
-    height: 1325px;
+    height: auto;
 }
+
+ol main{list-style-type: none}
