@@ -28,52 +28,52 @@ console.log(div)
         console.log(step)
         switch (step) {
             case 0:
-                $('.inner').append('<p>1</p>');
+                $('.inner').append('<p>немного текста о первом человеке</p>');
                 break;
             case 1:
-                $('.inner').append('<p>2</p>');
+                $('.inner').append('<p>немного текста о 2 человеке</p>');
                 break;
             case 2:
-                $('.inner').append('<p>3</p>');
+                $('.inner').append('<p>немного текста о 3 человеке</p>');
                 break;
             case 3:
-                $('.inner').append('<p>4</p>');
+                $('.inner').append('<p>немного текста о 4 человеке</p>');
                 break;
             case 4:
-                $('.inner').append('<p>5</p>');
+                $('.inner').append('<p>немного текста о 5 человеке</p>');
                 break;
             case 5:
-                $('.inner').append('<p>6</p>');
+                $('.inner').append('<p>немного текста о 6 человеке</p>');
                 break;
             case 6:
-                $('.inner').append('<p>7</p>');
+                $('.inner').append('<p>немного текста о 7 человеке</p>');
                 break;
             case 7:
-                $('.inner').append('<p>8</p>');
+                $('.inner').append('<p>немного текста о 8 человеке</p>');
                 break;
             case 8:
-                $('.inner').append('<p>9</p>');
+                $('.inner').append('<p>немного текста о 9 человеке</p>');
                 break;
             case 9:
-                $('.inner').append('<p>10</p>');
+                $('.inner').append('<p>немного текста о 10 человеке</p>');
                 break;
             case 10:
-                $('.inner').append('<p>11</p>');
+                $('.inner').append('<p>немного текста о 11 человеке</p>');
                 break;
             case 11:
-                $('.inner').append('<p>12</p>');
+                $('.inner').append('<p>немного текста о 12 человеке</p>');
                 break;
             case 12:
-                $('.inner').append('<p>13</p>');
+                $('.inner').append('<p>немного текста о 13 человеке</p>');
                 break;
             case 13:
-                $('.inner').append('<p>14</p>');
+                $('.inner').append('<p>немного текста о 14 человеке</p>');
                 break;
             case 14:
-                $('.inner').append('<p>15</p>');
+                $('.inner').append('<p>немного текста о 15 человеке</p>');
                 break;
             case 15:
-                $('.inner').append('<p>16</p>');
+                $('.inner').append('<p>немного текста о 16 человеке</p>');
                 break;
 }
     } else {

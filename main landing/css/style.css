@@ -20,12 +20,17 @@
     font-style: normal;
 }
 .colortext {
-    color: #ff8145; /* Красный цвет выделения */
+    color: #ff8145;
 }
 .wrapper {
     max-width: 1760px;
     margin: 0 auto;
     width: 100%;
+
+}
+slider0{
+    background: #0085C3 ;
+    padding-bottom: 70px;
 }
 .col1 {
     max-width: 550px;
@@ -41,6 +46,7 @@ max-height: 450px;
     justify-content: space-between;
     width: 100%;
     margin-top: 100px;
+
 }
 
 .top{
