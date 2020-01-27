@@ -30,13 +30,18 @@ time, mark, audio, video {
 
 
 
-html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
+html{
 
+    background: darkcyan;
     height: auto;
     width:auto;
+    padding-bottom: auto;
+    margin-bottom: auto;
 }
 
-header{text-align: center;font-size: 200%;}
+header{text-align: center;font-size: 200%;
+
+}
 
 h1{font-size: 100px;}
 
@@ -44,35 +49,41 @@ h1{font-size: 100px;}
     height: 40px}
 
 a{text-decoration: none;
-    color: bisque;
+    color: black;
+    font-size: x-large;
 }
 
 
 nav{
     height:10%;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .item1{
     display: inline-block;width: 16%; font-size: 20px;text-align: center;
-    text-decoration: none;cursor: grabbing;
+    cursor: grabbing;
 ;}
 .item2{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+    cursor: grabbing;
 ;}
 .item3{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+    cursor: grabbing;
 ;}
 .item4{
-    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center;
+    cursor: grabbing;
 ;}
 
 .item5
-{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center;
+    cursor: grabbing;
 ;}
 
 .item6
-{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center;
+    cursor: grabbing;
 ;}
 
 .twosections{ padding-top: 25px;
@@ -80,7 +91,7 @@ nav{
     padding-left: 15px;
     display: table;
 
-    height: 70%;
+    height: 60%;
     margin: auto;
 }
 
@@ -104,8 +115,9 @@ nav{
     padding-left: 25px;
 
 
-
 }
+
+
 
 section{
     padding-top: 50px;
@@ -126,6 +138,7 @@ ul li{
 ol li{
     list-style-type: circle;
     list-style-position: inside;
+    font-family: "Calibri Light";
 
 }
 
@@ -162,10 +175,10 @@ main{
 }
 
 Footer{
-    margin: 250px;
+    background: darkcyan;
     text-align: center;
-    height: 10%;
-    float: bottom;
+    height: 24px;
+
 }
 
 body{
@@ -177,13 +190,47 @@ ul li{
 }
 
 ol li{
-    padding-top: 25px;font-size: large;
+    padding-top: 25px;font-size: x-large;
 
 
 }
 
-div{
+.twosections{
+    background: #E8E8E8;
     height: auto;
 }
 
 ol main{list-style-type: none}
+
+pre{
+
+background: darkgrey;
+
+}
+
+
+section .sidearticle{
+    width: 100%;
+}
+
+div .footer{
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+
+
+
+}
+
+ul.section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+a:hover{
+    color: indianred;}
+
+b{
+    height: 25px;
+}
