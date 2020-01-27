@@ -230,6 +230,37 @@ main{
     margin-top: 100px;
 
 }
+
+.slider{
+
+    width: 675px;
+    position: relative;
+    border: 4px solid black;
+    margin: 100px auto;
+   overflow: hidden;
+
+}
+.line{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    left: 0;
+    transition: all ease 1s;
+}
+.slide{
+margin-top: 100px;
+    float: left;
+}
+
+.w168px {
+    justify-content: center;
+    width: 600px;
+}
+.inner{
+    text-align:center;
+    justify-content: center;
+
+}
 footer {
     color: rgba(0, 0, 0, 0);
     font-size: 1.3rem;
