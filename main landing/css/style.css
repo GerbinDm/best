@@ -291,11 +291,12 @@ footer .socials .icon {
     justify-content: center;
 }
 
-
+.fa{
+    margin-top: 13px;
+}
 
 footer .socials .icon.google {
     background: #efea3d;
-
 }
 footer .socials .icon.instagram {
     background: #ef7055;
