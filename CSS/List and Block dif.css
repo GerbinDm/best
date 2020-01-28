@@ -54,27 +54,24 @@ nav{
 }
 
 .item1{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+    display: inline-block;width: 16%; font-size: x-large;text-align: center;
     text-decoration: none;cursor: grabbing;
 ;}
 .item2{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: x-large;text-align: center
 ;}
 .item3{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: x-large;text-align: center
 ;}
 .item4{
-    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+    display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-
 .item5
-{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-
 .item6
-{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-
 .twosections{ padding-top: 25px;margin: auto;
     font-size:15px;
     padding-left: 15px;
@@ -143,7 +140,7 @@ p {
 
 }
 main{
-    padding-top: 100px;
+
     height: 200px;
     text-align: center;
     font-size: large;
@@ -172,6 +169,32 @@ ol li{
 
 }
 
-div{
-    height: 1325px;
+.listitem{
+    font-size: 20px;
+}
+
+li .sidearticle{
+    font-family:Arial sans-serif;
+}
+
+
+
+main {
+
+    height: 400px;
+
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main img{
+
+    padding-bottom: 15px;
+    height: 15%;
+}
+
+.sectionname{
+    font-size: 20px;
 }
