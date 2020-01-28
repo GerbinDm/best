@@ -30,6 +30,15 @@ h1{font-size: 100px;}
 a{text-decoration: none;
     color: bisque;
 }
+
+img{
+    float: left;
+    max-height: 250px;
+    max-width: 250px;
+    margin-right: 50px;
+}
+
+
 nav{
     height:10%;
     margin-top: 50px;

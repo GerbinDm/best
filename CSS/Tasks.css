@@ -111,7 +111,9 @@ main{
 ;
 
 }
-
+.iframe{
+    max-width: 600px;
+}
 Footer{
     margin: 50px;
     text-align: center;
