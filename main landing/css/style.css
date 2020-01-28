@@ -20,12 +20,17 @@
     font-style: normal;
 }
 .colortext {
-    color: #ff8145; /* Красный цвет выделения */
+    color: #ff8145;
 }
 .wrapper {
     max-width: 1760px;
     margin: 0 auto;
     width: 100%;
+
+}
+slider0{
+    background: #0085C3 ;
+    padding-bottom: 70px;
 }
 .col1 {
     max-width: 550px;
@@ -40,6 +45,8 @@ max-height: 450px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 100px;
+
 }
 
 .top{
@@ -230,6 +237,37 @@ main{
     margin-top: 100px;
 
 }
+
+.slider{
+
+    width: 675px;
+    position: relative;
+
+    margin: 100px auto;
+   overflow: hidden;
+
+}
+.line{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    left: 0;
+    transition: all ease 1s;
+}
+.slide{
+margin-top: 100px;
+    float: left;
+}
+
+.w168px {
+    justify-content: center;
+    width: 600px;
+}
+.inner{
+    text-align:center;
+    justify-content: center;
+
+}
 footer {
     color: rgba(0, 0, 0, 0);
     font-size: 1.3rem;
@@ -253,11 +291,12 @@ footer .socials .icon {
     justify-content: center;
 }
 
-
+.fa{
+    margin-top: 13px;
+}
 
 footer .socials .icon.google {
     background: #efea3d;
-
 }
 footer .socials .icon.instagram {
     background: #ef7055;
