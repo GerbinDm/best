@@ -85,7 +85,7 @@ dates.forEach(date => {
     const month = date.getMonth();
     const monthEl = document.querySelector(`.month_${month} .days_container`);
 
-    // create extra day slots if needed before day 1
+    // create extra day slots if needed before day tag
     if (date.getDate() === 1 && date.getDay() !== 0) {
         for (let i = 0; i < date.getDay(); i++) {
             const emptySpot = createEmptySpot();

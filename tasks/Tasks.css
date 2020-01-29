@@ -43,6 +43,7 @@ h1{font-size: 100px;}
 
 a{text-decoration: none;
 color: bisque;
+
 }
 
 
@@ -71,7 +72,8 @@ nav{
 {display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
 
-.twosections{ padding-top: 25px;margin: auto; font-size:15;
+.twosections{ padding-top: 25px;margin: auto; font-size:15px;
+
 height: 20%;
 }
 
@@ -97,7 +99,7 @@ height: 20%;
 }
 
 
-}
+
 
 .mainarticle{
     text-align: center;
@@ -112,6 +114,10 @@ main{
     font-size: large;
 ;
 }
+.iframe{
+    max-width: 600px;
+}
+
 Footer{
     margin-top: 15px;
     text-align: center;
@@ -180,7 +186,7 @@ li .sidearticle{
 
 main {
 
-    height: 100px;
+
 
     font-size: large;
     display: flex;
