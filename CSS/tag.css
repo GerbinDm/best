@@ -9,21 +9,22 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, header, hgroup,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-
+    font: inherit;
     vertical-align: baseline;
 }
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
-    height: auto;
+    height: 700px;
     width:auto;
 }
-header{text-align: center;font-size: 200%;}
+header{text-align: center;font-size: 200%;
+margin-top: 25px}
 h1{font-size: 100px;}
 .menulist{
     height: 40px}
@@ -32,7 +33,7 @@ a{text-decoration: none;
 }
 nav{
     height:10%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .item1{
     display: inline-block;width: 16%; font-size: x-large;text-align: center;
@@ -54,7 +55,7 @@ nav{
 {display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
 .center{ padding-top: 25px;
-    font-size:25px;
+    font-size:15px;
     padding-left: 15px;
     display: table;
     height: 100%;
@@ -62,7 +63,7 @@ nav{
 .leftsidelist{
     float: left;
     width: 25%;
-
+    padding-left: 30px;
 }
 .section {
     padding-left: 30px;
@@ -80,7 +81,6 @@ nav{
     text-align: justify;
     margin: auto;
     padding-right: 25px;
-
 }
 ul{
     font-size: large;
@@ -106,10 +106,15 @@ p {
 }
 .maincontent {
 }
+main{
 
+
+    text-align: center;
+    font-size: large;
+;
 }
-footer{
-    margin: 50px;
+Footer{
+    margin-top: 15px;
     text-align: center;
     height: 10%;
     float: bottom;
@@ -124,7 +129,7 @@ ol li{
     padding-top: 25px;font-size: large;
 }
 div{
-    font-family: "Britannic Bold";
+
     width: 100%;
 }
 
@@ -161,11 +166,7 @@ th{
 }
 
 tbody{
-    width: 100%;}
-
-.htmlbook-code{
-    padding-top: 25px;
-    background: lightskyblue;
+    width: 100%;
 }
 
 .listitem{
@@ -180,7 +181,7 @@ li .sidearticle{
 
 main {
 
-    height: 400px;
+    height: 100px;
 
     font-size: large;
     display: flex;
@@ -189,12 +190,10 @@ main {
 }
 
 main img{
+    height: 50px;
+    margin-top:30px;
 
-padding-bottom: 15px;
-height: 15%;
 }
-
-
 
 .sidearticle img{
     float: left;
@@ -203,3 +202,6 @@ height: 15%;
     padding: 15px;
 }
 
+.sectionname{
+    font-size: 20px;
+}

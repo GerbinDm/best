@@ -32,11 +32,12 @@ time, mark, audio, video {
 
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
 
-    height: auto;
+    height: 700px;
     width:auto;
 }
 
-header{text-align: center;font-size: 200%;}
+header{text-align: center;font-size: 200%;
+    margin-top: 25px}
 
 h1{font-size: 100px;}
 
@@ -50,7 +51,7 @@ a{text-decoration: none;
 
 nav{
     height:10%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .item1{
@@ -141,32 +142,65 @@ p {
 }
 main{
 
-    height: 200px;
+
     text-align: center;
     font-size: large;
 ;
-
 }
-
 Footer{
-    margin: 250px;
+    margin-top: 15px;
     text-align: center;
     height: 10%;
     float: bottom;
 }
-
 body{
     height: 100%;
 }
-
 ul li{
     padding-top: 25px;font-size: large;
 }
-
 ol li{
     padding-top: 25px;font-size: large;
+}
+div{
+
+    width: 100%;
+}
 
 
+
+table{
+    width:100%; display: contents;
+
+
+
+}
+
+tr{
+    width: 100%;
+
+    margin: auto;
+
+}
+
+td{
+
+    width: 500px;
+
+}
+
+th{
+    padding-top: 25px;
+    width: auto;
+    margin: auto;
+}
+
+.tablename{
+    padding: 25px;
+}
+
+tbody{
+    width: 100%;
 }
 
 .listitem{
@@ -181,7 +215,7 @@ li .sidearticle{
 
 main {
 
-    height: 400px;
+    height: 100px;
 
     font-size: large;
     display: flex;
@@ -190,9 +224,16 @@ main {
 }
 
 main img{
+    height: 50px;
+    margin-top:30px;
 
-    padding-bottom: 15px;
-    height: 15%;
+}
+
+.sidearticle img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
 }
 
 .sectionname{
