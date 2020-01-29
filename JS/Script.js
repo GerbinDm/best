@@ -301,6 +301,30 @@ function twntthrtask() {
 
 
 
+/* input selected image into div
 
 
+function tenthTask() {
+    var x = prompt("test");
+    img = {
+        src: x,
+        alt: '',
+        style: 'border: 1px solid #ccc',
+        width: '200',
 
+    }
+    console.log(img);
+
+}
+
+
+function eleventhTask() {
+    $("div.image").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+    $("img").attr("style", img.style);
+    $("img").attr("width", img.width);
+
+}
+
+*/

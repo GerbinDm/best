@@ -112,6 +112,10 @@ main{
     font-size: large;
 ;
 }
+.iframe{
+    max-width: 600px;
+}
+
 Footer{
     margin-top: 15px;
     text-align: center;
