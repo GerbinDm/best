@@ -11,16 +11,38 @@
 <body>
 <Header>
 	<a href="../index.html">HTML/CSS Guide</a>
-</Header>
-
-
-	<footer>
-
-	</footer>
-
+	<header>
+		<h1>Registration_Form</h1>
+	</header>
+	<form name="test" action="javascript:alert('ALARM!!!!');">
+		<b>User_Name*</b><br>
+		<input type="text" required><br>
+		<b> Mail*</b><br>
+		<input type="email" id="email" required><br>
+		<b>Password*</b><br>
+		<input type="password" name="pass" pattern=".{2,}" required ><br>
+		<b>Gender</b><br>
+		<input type="radio" name="Gender" value="male" checked="checked"> Male<br>
+		<input type="radio" name="Gender" value="female"> Female<br>
+		<b>Age</b><br>
+		<input type="number" size="3"><br>
+		<b>Civil status</b>
+		<input type="checkbox" name="Civil status"><br>
+		<b>Phone_Number*</b><br>
+		<input type="tel" pattern="[/+]38[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required placeholder="38XXX-XXX-XX-XX"><br>
+		<b>City</b><br>
+		<select name="menu" ><br>
+			<option selected="selected" value="first">select Your city</option>
+			<option value="second">Kharkiv</option>
+			<option value="third">Odessa</option>
+			<option value="fourth">Lviv</option>
+			<option value="five">Kiev</option>
+		</select><br>
+		<b>About</b><br>
+		<textarea name="comment" cols="40" rows="3"></textarea><br>
+		<input type = "submit" value = "send"><Br>
+	</form>
 </body>
 </html>
-
-
 
 
