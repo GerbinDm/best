@@ -31,19 +31,19 @@ console.log(div)
                 $('.inner').append('<p>немного текста о первом человеке</p>');
                 break;
             case 1:
-                $('.inner').append('<p>немного текста о 2 человеке</p>');
+                $('.inner').append('<p>немного текста о selectors человеке</p>');
                 break;
             case 2:
-                $('.inner').append('<p>немного текста о 3 человеке</p>');
+                $('.inner').append('<p>немного текста о attributes человеке</p>');
                 break;
             case 3:
-                $('.inner').append('<p>немного текста о 4 человеке</p>');
+                $('.inner').append('<p>немного текста о layout человеке</p>');
                 break;
             case 4:
-                $('.inner').append('<p>немного текста о 5 человеке</p>');
+                $('.inner').append('<p>немного текста о JS человеке</p>');
                 break;
             case 5:
-                $('.inner').append('<p>немного текста о 6 человеке</p>');
+                $('.inner').append('<p>немного текста о tasks человеке</p>');
                 break;
             case 6:
                 $('.inner').append('<p>немного текста о 7 человеке</p>');

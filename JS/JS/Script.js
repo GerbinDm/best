@@ -48,9 +48,9 @@ function FifthTask(){
     alert(o)
 }
 function sixthTask (){
-    var a=prompt('input  1  number'),d;
-    var b=prompt('input  2  number');
-    var c=prompt('input  3  number');
+    var a=prompt('input  tag  number'),d;
+    var b=prompt('input  selectors  number');
+    var c=prompt('input  attributes  number');
     c=+c,a=+a,b=+b;
     d=Math.max(a, b, c)
     alert('max is '+d);
@@ -73,7 +73,7 @@ function ninthTask(){
     alert ("x < y = " + ((p = Math.round(Math.random()*100)) < (t = prompt('Input your number', ''))) + ", x = " + p + ", y = " + t);
 }
 function tenthTask() {
-    var x=+prompt("Input number 1"),y=+prompt("Input number 2"),z=+prompt("Input number 3"),m;
+    var x=+prompt("Input number tag"),y=+prompt("Input number selectors"),z=+prompt("Input number attributes"),m;
     m=+Math.min(x,y,z)
     if (x==y || x==z || y==z) {
 
@@ -265,7 +265,7 @@ function twnttoask() {
 
 }
 function twntthrtask() {
-    var x = +prompt("Input number 1"), y = +prompt("Input number 2"), z = +prompt("Input number 3"), m;
+    var x = +prompt("Input number tag"), y = +prompt("Input number selectors"), z = +prompt("Input number attributes"), m;
     m = +Math.min(x, y, z)
     if (x == y || x == z || y == z) {
 

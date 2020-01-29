@@ -43,7 +43,6 @@ h1{font-size: 100px;}
 
 a{text-decoration: none;
 color: bisque;
-
 }
 
 
@@ -72,52 +71,55 @@ nav{
 {display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
 
-.twosections{ padding-top: 25px;margin: auto; font-size:15px;
-
-height: 20%;
+div div  {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+    width: 300px;
 }
-
-.section {
-    height: 200px;
-    width: 25%;
-    float: left;
-    margin: auto;
-
-    padding-left: 15px;
+div {
+    margin-left: 25px;
+    margin-right: 25px;
 }
-
-.sidearticle{
-    height: 200px;
-    width: calc(75% - 33px);
-    float: right;
-    padding-left: 15px;
-
-    border-left-color: black;
-    margin: auto;
-    border-left-style: solid;
-
+code{
+    margin-top: 25px;
 }
-
-
-
-
-.mainarticle{
-    text-align: center;
-    margin:auto;
-    ;
+#temnyi-fix{
+    display: inline-block;
+    background: cyan;
 }
-
+#svetlyi-fix {
+    display: inline-block;
+    background: orange;
+}
+#temnyi-rub{
+    display: inline-block;
+    background: cyan;
+}
+#svetlyi-rub{
+    display: inline-block;
+    background: orange;
+}
+#temnyi-ada{
+    display: inline-block;
+    background: cyan;
+}
+#svetlyi-ada{
+    display: inline-block;
+    background: orange;
+}
+#temnyi-otz{
+    display: inline-block;
+    background: cyan;
+}
+#svetlyi-otz{
+    display: inline-block;
+    background: orange;
+}
 main{
-
-
     text-align: center;
     font-size: large;
-;
 }
-.iframe{
-    max-width: 600px;
-}
-
 Footer{
     margin-top: 15px;
     text-align: center;
@@ -127,63 +129,9 @@ Footer{
 body{
     height: 100%;
 }
-ul li{
-    padding-top: 25px;font-size: large;
+div p {
+    font-family: sans-serif;
 }
-ol li{
-    padding-top: 25px;font-size: large;
-}
-div{
-
-    width: 100%;
-}
-
-
-
-table{
-    width:100%; display: contents;
-
-
-
-}
-
-tr{
-    width: 100%;
-
-    margin: auto;
-
-}
-
-td{
-
-    width: 500px;
-
-}
-
-th{
-    padding-top: 25px;
-    width: auto;
-    margin: auto;
-}
-
-.tablename{
-    padding: 25px;
-}
-
-tbody{
-    width: 100%;
-}
-
-.listitem{
-    font-size: 20px;
-}
-
-li .sidearticle{
-    font-family:Arial sans-serif;
-}
-
-
-
 main {
 
     height: 100px;
@@ -198,15 +146,4 @@ main img{
     height: 50px;
     margin-top:30px;
 
-}
-
-.sidearticle img{
-    float: left;
-    height: 250px;
-    width: 250px;
-    padding: 15px;
-}
-
-.sectionname{
-    font-size: 20px;
 }
