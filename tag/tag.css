@@ -24,22 +24,13 @@ html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fanc
     width:auto;
 }
 header{text-align: center;font-size: 200%;
-margin-top: 25px}
+    margin-top: 25px}
 h1{font-size: 100px;}
 .menulist{
     height: 40px}
 a{text-decoration: none;
     color: bisque;
 }
-
-img{
-    float: left;
-    max-height: 250px;
-    max-width: 250px;
-    margin-right: 50px;
-}
-
-
 nav{
     height:10%;
     margin-top: 25px;
@@ -72,7 +63,7 @@ nav{
 .leftsidelist{
     float: left;
     width: 25%;
-    padding-left: 30px;
+    
 }
 .section {
     padding-left: 30px;
