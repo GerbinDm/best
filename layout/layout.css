@@ -1,5 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -25,7 +24,9 @@ time, mark, audio, video {
 
 
 
-
+h2{
+    text-align: center;
+}
 
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
 
@@ -71,50 +72,112 @@ nav{
 {display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
 
-div div  {
+div .image  {
     justify-content: center;
     display: flex;
     margin-bottom: 25px;
-    width: 300px;
+
 }
-div {
+div .lay {
+margin: 50px;
+
+
+
+
+}
+p {
     margin-left: 25px;
     margin-right: 25px;
 }
 code{
     margin-top: 25px;
 }
+div.st{
+    width: 1024px;
+}
 #temnyi-fix{
-    display: inline-block;
     background: cyan;
+    width: 512px;
 }
 #svetlyi-fix {
-    display: inline-block;
+
     background: orange;
+    width: 512px;
+}
+div.ru{
+    max-width: 1024px;
 }
 #temnyi-rub{
-    display: inline-block;
+
     background: cyan;
+    width:50%
+
 }
 #svetlyi-rub{
-    display: inline-block;
+
     background: orange;
+    width:50%;
+
+}
+div.adapt{
+    max-width: 1024px;
 }
 #temnyi-ada{
     display: inline-block;
     background: cyan;
+    width: 512px;
 }
 #svetlyi-ada{
     display: inline-block;
     background: orange;
+    width: 512px;
+}
+@media (max-width: 1125px) {
+    #temnyi-ada, #svetlyi-ada { width: 380px; }
+}
+@media (max-width: 860px) {
+    #temnyi-ada, #svetlyi-ada { width: 325px; }
+}
+@media (max-width: 750px) {
+    #temnyi-ada, #svetlyi-ada { width: 200px; }
+}
+@media (max-width: 515px) {
+    #temnyi-ada, #svetlyi-ada { width: 100px; }
+}
+@media (max-width: 300px) {
+    #temnyi-ada, #svetlyi-ada { width: 50px; }
+}
+div.ot{
+    max-width:1024px;
 }
 #temnyi-otz{
     display: inline-block;
     background: cyan;
+   width: 50%;
 }
 #svetlyi-otz{
     display: inline-block;
     background: orange;
+    width: 50%;
+}
+
+@media (max-width: 950px) {
+    #temnyi-otz, #svetlyi-otz { max-width: 350px; width: 50% }
+}
+@media (max-width: 700px) {
+    #temnyi-otz, #svetlyi-otz { max-width: 240px; width: 50% }
+}
+@media (max-width: 400px) {
+    #temnyi-otz, #svetlyi-otz { max-width: 100px; width: 50% }
+}
+
+
+div.st, div.ru, div.adapt, div.ot{
+
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    height: 40px;
 }
 main{
     text-align: center;
