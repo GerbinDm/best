@@ -71,7 +71,9 @@ nav{
 .item6
 {display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-.twosections{ padding-top: 25px;margin: auto; font-size:15;
+
+.twosections{ padding-top: 25px;margin: auto; font-size:15px;
+
 height: 20%;
 }
 
@@ -97,7 +99,7 @@ height: 20%;
 }
 
 
-}
+
 
 .mainarticle{
     text-align: center;

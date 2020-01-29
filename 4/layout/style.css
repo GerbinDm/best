@@ -1,0 +1,19 @@
+header nav {
+    background-color: lightskyblue;/* цвет рамки */
+}
+header nav a{
+    color: red; /* цвет меню навигации */
+    padding: 10px 20px;/* отступы в меню нав */
+    border-right: 4px double black;/* бордеры */
+}
+header a:last-child {
+    border-right: 0 double black;/* убираем последний бордер в нав меню, последнего доч элемента */
+}
+header ul{
+    padding: 10px 20px;/* заполняем рамку хереда нав меню */
+}
+header span{
+    border-right: 4px double black;/* делаем рамку вокруг  не кликабельного спана */
+    padding: 10px 20px;/* паддинг для спана*/
+}
+
