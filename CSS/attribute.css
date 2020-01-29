@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,110 +19,189 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-
-
-
-
-
-
-
-
-
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
-
-    height:100%;
-    width:100%;
+    height: 700px;
+    width:auto;
 }
-
-header{text-align: center;font-size: 200%;}
-
+header{text-align: center;font-size: 200%;
+    margin-top: 25px}
 h1{font-size: 100px;}
-
 .menulist{
-    height: 20px}
-
+    height: 40px}
 a{text-decoration: none;
-color: bisque;
+    color: bisque;
 }
-
-
 nav{
     height:10%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
-
 .item1{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+    display: inline-block;width: 16%; font-size: x-large;text-align: center;
     text-decoration: none;cursor: grabbing;
 ;}
 .item2{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: x-large;text-align: center
 ;}
 .item3{
-    display: inline-block;width: 16%; font-size: 20px;text-align: center
+    display: inline-block;width: 16%; font-size: x-large;text-align: center
 ;}
 .item4{
-    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+    display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-
 .item5
-{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-
 .item6
-{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+{display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-
-.twosections{ padding-top: 25px;margin: auto; font-size:15;
-height: 20%;
+.center{ padding-top: 25px;
+    font-size:15px;
+    padding-left: 15px;
+    display: table;
+    height: 100%;
 }
-
-.section {
-    height: 200px;
-    width: 25%;
+.leftsidelist{
     float: left;
-    margin: auto;
-
-    padding-left: 15px;
+    width: 25%;
+    padding-left: 30px;
 }
-
+.section {
+    padding-left: 30px;
+    height: 50%;
+}
+.section2 {
+    padding-left: 30px;
+    height: 50%;
+}
 .sidearticle{
-    height: 200px;
-    width: calc(75% - 33px);
+    width: calc(75% - 80px);
     float: right;
-    padding-left: 15px;
-
-    border-left-color: black;
+    padding-left: 10px;
+    font-size: large;
+    text-align: justify;
     margin: auto;
-    border-left-style: solid;
-
+    padding-right: 25px;
 }
-
-
+ul{
+    font-size: large;
 }
-
+ul li{
+    font-size: large;
+}
+ol li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+p {
+    padding-left: 25px;
+}
+.blockitem{
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .mainarticle{
     text-align: center;
-    margin:auto;
-    ;
-}
 
+    padding: 15px;
+}
+.maincontent {
+}
 main{
-    height: 50%;
-    margin-top: 100px;
+
+
     text-align: center;
+    font-size: large;
 ;
-
 }
-
 Footer{
-    margin: 50px;
+    margin-top: 15px;
     text-align: center;
     height: 10%;
     float: bottom;
 }
-
 body{
     height: 100%;
 }
+ul li{
+    padding-top: 25px;font-size: large;
+}
+ol li{
+    padding-top: 25px;font-size: large;
+}
+div{
 
+    width: 100%;
+}
+
+
+
+table{
+    width:100%; display: contents;
+
+
+
+}
+
+tr{
+    width: 100%;
+
+    margin: auto;
+
+}
+
+td{
+
+    width: 500px;
+
+}
+
+th{
+    padding-top: 25px;
+    width: auto;
+    margin: auto;
+}
+
+.tablename{
+    padding: 25px;
+}
+
+tbody{
+    width: 100%;
+}
+
+.listitem{
+    font-size: 20px;
+}
+
+li .sidearticle{
+    font-family:Arial sans-serif;
+}
+
+
+
+main {
+
+    height: 100px;
+
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main img{
+    height: 50px;
+    margin-top:30px;
+
+}
+
+.sidearticle img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+}
+
+.sectionname{
+    font-size: 20px;
+}

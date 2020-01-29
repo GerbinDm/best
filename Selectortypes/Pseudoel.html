@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Resorts</title>
+
+	<link rel="stylesheet" href="../CSS/class.css">
+
+</head>
+<body>
+<Header>
+	<a href="../index.html">HTML/CSS Guide</a>
+</Header>
+<nav>
+
+	<menu class="menulist">
+		<li class="item1"><a href="../1/tags.html">Tags</a></li>
+		<li class="item2"><a href="../2/selectors.html">Selectors</a></li>
+		<li class="item3"><a href="../3/attributes.html">Attributes</a></li>
+		<li class="item4"><a href="../4/general.html">General</a></li>
+		<li class="item5"><a href="../5/JS.html">JS</a></li>
+		<li class="item6"><a href="../6/Tasks.html">Tasks</a></li>
+	</menu>
+</nav>
+<div class="center">
+	<div class="leftsidelist">
+		<ul>Selector types
+			<li class="sectionname"><a href="../Selectortypes/Base.html">Base</a>
+
+			</li>
+			<li class="sectionname"><a href="../Selectortypes/Combined.html">Combined</a>
+
+
+			</li>
+
+			<li class="sectionname"><a href="../Selectortypes/Pseudoel.html">Pseudo elements</a>
+				<ul class="section">
+
+					<li class="listitem">::after</li>
+					<li class="listitem">::before</li>
+					<li class="listitem">::first-letter</li>
+					<li class="listitem">::selection</li>
+					<li class="listitem">::backdrop</li>
+				</ul>
+
+			</li>
+			<li class="sectionname"><a href="../Selectortypes/Pseudocl.html">Pseudo classes</a>
+
+
+			</li>
+		</ul>
+	</div>
+	<ol class="sidearticle">Pseudo elements
+		<li class="blockitem">General
+			<p>Знак :: позволяет выбрать вещи, которых нет в HTML.<p>
+			<p>Пример: p::first-line соответствует первой линии абзаца p.<p>
+			</li>
+		<li class="blockitem"> ::after
+			<p>В CSS, ::after создаёт псевдоэлемент, который является последним потомком выбранного элемента. Часто используется для добавления косметического содержимого в элемент с помощью свойства content. По умолчанию является инлайновым.<p>
+			<p style="padding-top: 5px">Задача:/* Добавить стрелки после ссылок */<p>
+
+			<p>a::after {</p>
+				<p>content: "→"; }</p>
+		</li>
+
+		<li class="blockitem"> ::before
+			<p>В CSS, ::before создаёт псевдоэлемент,который является первым потомком выбранного элемента. Часто используется для добавления косметического содержимого в элемент с помощью свойства content. По умолчания является инлайновым.<p>
+			<p style="padding-top: 5px">Задача:/* Добавить сердце перед ссылками */<p>
+
+			<p>a::before {</p>
+			<p> content: "♥";
+				}</p>
+
+		<li class="blockitem"> ::first-letter
+			<p>CSS псевдоэлемент ::first-letter применяет стили к первой букве первой строки блочного элемента, но только если нету другого предшествующего содержимого (такого как изображения или инлайн таблицы).<p>
+			<p style="padding-top: 5px">Задача:/* Стили для первой буквы элемента "p" */<p>
+
+			<p>p::first-letter {</p>
+			<p>font-size: 130%;}</p>
+
+		<li class="blockitem"> ::selection
+			<p>Псевдоэлемент ::selection позволяет применить стили к части документа, который был выделен пользователем (например, с помощью мыши).<p>
+			<p style="padding-top: 5px">Задача:/* применить стили к части документа, который был выделен пользователем */<p>
+
+			<p>::selection {</p>
+			<p> background: cyan;
+				}</p>
+
+		<li class="blockitem"> ::backdrop
+			<p>CSS псевдо-элемент ::backdrop это прямоугольник с размерами окна, который отрисовывается сразу же после отрисовки любого элемента в полноэкранном режиме. Это включает элементы, установленные в полноэкранный режим с помощью Fullscreen API и элементы "dialog".<p>
+			<p style="padding-top: 5px">Задача:/* Подложка показывается только тогда, когда диалоговое окно открыто с помощью метода dialog.showModal() */<p>
+
+			<p>dialog::backdrop {</p>
+			<p>  background: rgba(255,0,0,.25);</p>
+			<p>} </p>
+
+
+
+	</ol>
+
+</div>
+
+<main>
+
+	<img src="../img/logo.svg" alt="smth" >
+
+
+</main>
+<footer style="text-align: center;color: white;font-size: medium">
+	CHI Software
+</footer>
+</body>
+
+
+
+
+</html>
+
+
+
+
+
