@@ -25,7 +25,8 @@ html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fanc
 }
 header{text-align: center;font-size: 200%;
     margin-top: 25px}
-h1{font-size: 100px;}
+h1{
+    font-size: 100px;}
 .menulist{
     height: 40px}
 a{text-decoration: none;
@@ -48,11 +49,11 @@ nav{
 .item4{
     display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-.item5
-{display: inline-block;width: 16%;  font-size: x-large;text-align: center
+.item5 {
+    display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-.item6
-{display: inline-block;width: 16%;  font-size: x-large;text-align: center
+.item6 {
+    display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
 .center{ padding-top: 25px;
     font-size:15px;
@@ -86,11 +87,12 @@ ul{
     font-size: large;
 }
 ul li{
-    font-size: large;
+    font-size: large; padding-top: 25px;
 }
 ol li{
     list-style-type: circle;
     list-style-position: inside;
+    padding-top: 25px;font-size: large;
 }
 p {
     padding-left: 25px;
@@ -103,8 +105,6 @@ p {
     text-align: center;
 
     padding: 15px;
-}
-.maincontent {
 }
 main{
 
@@ -122,24 +122,13 @@ Footer{
 body{
     height: 100%;
 }
-ul li{
-    padding-top: 25px;font-size: large;
-}
-ol li{
-    padding-top: 25px;font-size: large;
-}
 div{
 
     width: 100%;
 }
-
-
-
-table{
-    width:100%; display: contents;
-
-
-
+table {
+    width: 100%;
+    display: contents;
 }
 
 tr{
@@ -177,8 +166,6 @@ li .sidearticle{
     font-family:Arial sans-serif;
 }
 
-
-
 main {
 
     height: 100px;
@@ -195,13 +182,24 @@ main img{
 
 }
 
-.sidearticle img{
-    float: left;
-    height: 250px;
-    width: 250px;
-    padding: 15px;
-}
 
 .sectionname{
     font-size: 20px;
 }
+
+p.tablename{
+  color: black;
+
+}
+
+.tablename{
+    border-bottom: ridge;
+    width: 956px;
+}
+
+.sidearticle img{
+float: none;
+    width: auto;
+    padding: 0px;
+}
+

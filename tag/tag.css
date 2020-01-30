@@ -87,10 +87,13 @@ ul{
 }
 ul li{
     font-size: large;
+
+    padding-top: 25px;
 }
 ol li{
     list-style-type: circle;
     list-style-position: inside;
+    padding-top: 25px;font-size: large;
 }
 p {
     padding-left: 25px;
@@ -122,12 +125,7 @@ Footer{
 body{
     height: 100%;
 }
-ul li{
-    padding-top: 25px;font-size: large;
-}
-ol li{
-    padding-top: 25px;font-size: large;
-}
+
 div{
 
     width: 100%;
@@ -138,21 +136,17 @@ div{
 table{
     width:100%; display: contents;
 
-
-
 }
 
 tr{
     width: 100%;
 
     margin: auto;
-
 }
 
 td{
 
     width: 500px;
-
 }
 
 th{
