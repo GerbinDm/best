@@ -58,12 +58,33 @@ p{
     font-size: large;
     margin-top: 4%;
     padding-top: 4%;
+    font-family:roboto;
 }
 .menulist{
     height: 20%;
+    font-family: sans-serif;
 }
 .Inv1 .Inv2 .Inv3 .Inv4 .Inv5 .Inv6{
     display: inline-block;width: 16%; font-size: 20px;text-align: center;
+
+;}
+.Inv2{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv3{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv4{
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv5
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+
 ;}
 button {
 
