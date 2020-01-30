@@ -18,48 +18,37 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-
-
-
-
-
-
-
-
 html{
     width: 100%;
     height: 100%;
     background-image: url("https://cdn.oboi7.com/content/images/99/7d/997d621e5926bef4081726aac49f5b16d684b5be.jpg?oboi7.com-97802.jpg");
 }
-
+.title{
+    font-size: 30px;
+}
+.main{
+    font-size: 60px;
+}
 body{
     height: 100%;
 }
-
 div{
     color: whitesmoke;
     height: auto;
     margin-bottom: 100px;
 }
-
 nav{
-
     height: 20%;
 }
-
 .item1{
     display: inline-block;
     width: calc((100% / 6) - 5px)
 ; font-size: 20px;text-align: center;
 }
-
 a{
     text-decoration: none;
     color: bisque;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
+    font-family:Sans-Serif;
 }
 a:hover{
     color: lime;
@@ -67,27 +56,17 @@ a:hover{
 p{
     text-align: center;
     font-size: large;
-    margin-top: 5%;
+    margin-top: 4%;
     padding-top: 4%;
-<<<<<<< Updated upstream
-
-
-=======
     font-family:roboto;
->>>>>>> Stashed changes
 }
-
-
 .menulist{
     height: 20%;
     font-family: sans-serif;
 }
-
-
-.Inv1{
+.Inv1 .Inv2 .Inv3 .Inv4 .Inv5 .Inv6{
     display: inline-block;width: 16%; font-size: 20px;text-align: center;
 
-<<<<<<< Updated upstream
 ;}
 .Inv2{
     display: inline-block;width: 16%; font-size: 20px;text-align: center
@@ -105,8 +84,7 @@ p{
 
 .Inv6
 {display: inline-block;width: 16%;  font-size: 20px;text-align: center
-=======
->>>>>>> Stashed changes
+
 ;}
 button {
 
@@ -118,10 +96,8 @@ button {
 
     height: 20px;
     width: 20px;
-
 }
 .buttons_hidden{ text-align: center;
 display: flex;
     justify-content: space-around;
-
 }

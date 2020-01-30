@@ -23,31 +23,104 @@
 	</menu>
 </nav>
 <div>
-    <Div>
+    <Div class="image">
 	<IMG src="../img/ekran.gif">
     </Div>
 	<p>"Статический" или "Динамический" ("Резиновый", "адаптивный", "отзывчивый") сайт. Что это такое,
         что выбрать, что лучше, в чём разница? Для того, чтобы увидеть её давайте попробуем разобраться</p>
 	<P></P>
-    <div>
-        <div>
-	        <div id="temnyi-fix">Статический</div>
-            <div id="svetlyi-fix">способ верстки</div>
+    <div class="lay">
+        <div class="st">
+	        <div id="temnyi-fix">Статическая</div>
+            <div id="svetlyi-fix">Верстка</div>
         </div>
-        <div>
+        <div class="ru">
             <div id="temnyi-rub">Резиновая</div>
             <div id="svetlyi-rub">Верстка</div>
         </div>
-        <div>
+        <div class="adapt">
             <div id="temnyi-ada">Адаптивная</div>
             <div id="svetlyi-ada">Верстка</div>
         </div>
-        <div>
+        <div class="ot">
             <div id="temnyi-otz">Отзывчивая</div>
             <div id="svetlyi-otz">Верстка</div>
         </div>
     </div>
 </div>
+<H2>Фиксированная/статическая верстка</H2>
+<div>
+<p>Блоки не меняют свою ширину. На мониторах с маленьким разрешением появляется горизонтальная полоса прокрутки.</p>
+</div>
+<p><code>
+    &lt;style> <br>
+        #blue, #orange { width: 440px; }<br>
+    &lt;style><br>
+</code></p>
+<br>
+<p><a href="layout/fixed.html" target="_blank">Более наглядно тут</a></p>
+<H2>Резиновая вёрстка</H2>
+<div>
+    <p>Блоки меняют свою ширину в зависимости от размера окна браузера. Она может принимать максимальное и минимальное значение (свойство max-width). Но нельзя по мере уменьшения экрана из 50% сделать 100%.</p>
+</div>
+<p><code>
+    &lt;style><br>
+        #blue, #orange { width: 50%; }<br>
+    &lt;/style><br>
+</code></p>
+<br>
+<p><a href="layout/rubber.html" target="_blank">Более наглядно тут</a></p>
+<H2>Адаптивная вёрстка</H2>
+<div>
+    <p>Воплощается с помощью @ Media или благодаря скриптам . Заточен под конкретные известные устройства (320, 768, 1024, т.д.). Любое изменение происходит рывками, после достижения одного из указанных уровней. Однозначно подходит для создания версии для печати. Автор подхода - Aaron Gustafson.</p>
+</div>
+<p><code>
+    &lt;style><br>
+    #blue, #orange {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;width: 430px;<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;}<br>
+    <br>
+    @media (max-width: 1220px) {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;  #blue, #orange { <br>
+    &shy;&shy; &shy;&shy;&shy;&shy;  width: 380px; <br>
+    &shy;&shy; &shy;&shy;&shy;&shy;  }<br>
+    }<br>
+    <br>
+    @media (max-width: 1120px) {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;  #blue, #orange {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;  width: 325px;<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;}<br>
+    }<br>
+    <br>
+    @media (max-width: 680px) {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;             #blue, #orange {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;         width: 200px;<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;}<br>
+    }
+    &lt;/style><br>
+</code></p>
+<br>
+<p><a href="layout/adaptive.html" target="_blank">Более наглядно тут</a></p>
+<H2>Отзывчивая вёрстка</H2>
+<div>
+    <p>то объединение резиновой и адаптивной вёрстки. В реализации самая сложная. Но результат получается наиболее приемлемый. Можно с уверенностью сказать, что сайт приспособится к любому устройству. Автор подхода - Ethan Marcotte.</p>
+</div>
+<p><code>
+    &lt;style><br>
+        #blue, #orange {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;width: 50%;<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;}<br>
+    <br>
+        @media (max-width: 1006px) {<br>
+            #blue, #orange {<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;width: 100%;<br>
+    &shy;&shy; &shy;&shy;&shy;&shy;}<br>
+        }<br>
+    &lt;/style><br>
+</code></p>
+<br>
+<p><a href="layout/responsive.html" target="_blank">Более наглядно тут</a></p>
+
 <main>
 
 

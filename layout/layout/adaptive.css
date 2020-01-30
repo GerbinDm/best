@@ -62,7 +62,7 @@
     width: 100%;
 
 }
-@media screen and (min-width: 1636px) and (max-width: 1665px){
+@media screen and (min-width: 1636px) and (max-width: 1680px){
     .first_part{
         background: white;
         display: flex;
