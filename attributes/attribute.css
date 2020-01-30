@@ -87,11 +87,14 @@ ul{
 }
 ul li{
     font-size: large;
+    padding-top: 25px;
 }
 ol li{
     list-style-type: circle;
     list-style-position: inside;
+    padding-top: 25px;font-size: large;
 }
+
 p {
     padding-left: 25px;
 }
@@ -122,12 +125,8 @@ Footer{
 body{
     height: 100%;
 }
-ul li{
-    padding-top: 25px;font-size: large;
-}
-ol li{
-    padding-top: 25px;font-size: large;
-}
+
+
 div{
 
     width: 100%;
@@ -197,9 +196,9 @@ main img{
 
 .sidearticle img{
     float: left;
-    height: 250px;
-    width: 250px;
-    padding: 15px;
+    height: 300px;
+    width: 900px;
+    padding: 50px;
 }
 
 .sectionname{

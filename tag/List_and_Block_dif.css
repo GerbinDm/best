@@ -107,13 +107,16 @@ ul{
 
 ul li{
     font-size: large;
-
+    padding-top: 25px;
 }
+
 
 
 ol li{
     list-style-type: circle;
     list-style-position: inside;
+    padding-top: 25px;
+    font-size: large;
 
 }
 
@@ -156,12 +159,8 @@ Footer{
 body{
     height: 100%;
 }
-ul li{
-    padding-top: 25px;font-size: large;
-}
-ol li{
-    padding-top: 25px;font-size: large;
-}
+
+
 div{
 
     width: 100%;

@@ -137,6 +137,7 @@ Footer{
 body{
     height: 100%;
 }
+
 div{
     font-family: roboto;
     width: 100%;
@@ -144,8 +145,21 @@ div{
 table{
     width:100%; display: contents;
 
+}
 
+tr{
+    width: 100%;
 
+    margin: auto;
+}
+td{
+
+    width: 500px;
+}
+th{
+    padding-top: 25px;
+    width: auto;
+    margin: auto;
 }
 .tablename{
     padding: 25px;
