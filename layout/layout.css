@@ -26,6 +26,7 @@ time, mark, audio, video {
 
 h2{
     text-align: center;
+    font-family: roboto;
 }
 
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
@@ -35,15 +36,17 @@ html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fanc
 }
 
 header{text-align: center;font-size: 200%;
-    margin-top: 25px}
+    margin-top: 25px;
+    font-family: roboto;}
 
-h1{font-size: 100px;}
+h1{font-size: 100px;
+    font-family: roboto;}
 
 .menulist{
     height: 20px}
 
 a{text-decoration: none;
-color: bisque;
+color: bisque;  font-family: roboto;
 }
 
 
@@ -88,6 +91,7 @@ margin: 50px;
 p {
     margin-left: 25px;
     margin-right: 25px;
+    font-family: roboto;
 }
 code{
     margin-top: 25px;
@@ -193,7 +197,7 @@ body{
     height: 100%;
 }
 div p {
-    font-family: sans-serif;
+    font-family: roboto;;
 }
 main {
 

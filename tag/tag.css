@@ -92,7 +92,8 @@ ul li{
 ol li{
     list-style-type: circle;
     list-style-position: inside;
-    padding-top: 25px;font-size: large;
+    padding-top: 25px;
+    font-size: large;
 }
 p {
     padding-left: 25px;

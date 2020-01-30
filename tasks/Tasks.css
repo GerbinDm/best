@@ -34,7 +34,8 @@ html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fanc
 }
 
 header{text-align: center;font-size: 200%;
-    margin-top: 25px}
+    margin-top: 25px;
+    font-family: roboto;}
 
 h1{font-size: 100px;}
 
@@ -43,6 +44,7 @@ h1{font-size: 100px;}
 
 a{text-decoration: none;
 color: bisque;
+    font-family: roboto;
 
 }
 
@@ -134,7 +136,7 @@ ol li{
     padding-top: 25px;font-size: large;
 }
 div{
-
+    font-family: roboto;
     width: 100%;
 }
 
