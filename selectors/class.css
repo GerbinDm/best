@@ -21,7 +21,8 @@ time, mark, audio, video {
 }
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
     height: 700px;
-    width:auto;
+    width: 1850px;
+    margin: 20px;
 }
 header{text-align: center;font-size: 200%;
     margin-top: 25px;
@@ -149,13 +150,15 @@ td{
     border-style: ridge;
     width: 500px;
     padding: 10px;
+    font-family: roboto;
 }
 
 th{
     padding-top: 25px;
     width: auto;
     margin: auto;
-    padding: 10px;
+    padding-left: 10px;
+
 }
 
 .tablename{
@@ -165,6 +168,8 @@ th{
 tbody{
     width: 100%;
     background: #E8E8E8;
+    font-size: 14px;
+
 }
 
 .listitem{

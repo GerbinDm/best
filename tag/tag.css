@@ -20,7 +20,8 @@ time, mark, audio, video {
 }
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
     height: 700px;
-    width:auto;
+    width: 1850px;
+    margin: 20px;
 }
 header{text-align: center;font-size: 200%;
 margin-top: 25px}
