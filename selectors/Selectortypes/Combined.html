@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Resorts</title>
+
+	<link rel="stylesheet" href="../class.css">
+
+</head>
+<body>
+<Header>
+	<a href="../index.html">HTML/CSS Guide</a>
+</Header>
+<nav>
+
+	<menu class="menulist">
+		<li class="item1"><a href="../../tag/tags.html">Tags</a></li>
+		<li class="item2"><a href="../selectors.html">Selectors</a></li>
+		<li class="item3"><a href="../../attributes/attributes.html">Attributes</a></li>
+		<li class="item4"><a href="../../layout/layout.html">General</a></li>
+		<li class="item5"><a href="../../JS/JS.html">JS</a></li>
+		<li class="item6"><a href="../../tasks/Tasks.html">Tasks</a></li>
+	</menu>
+</nav>
+<div class="center">
+	<div class="leftsidelist">
+		<ul>Selector types
+			<li class="sectionname"><a href="Base.html">Base</a>
+
+			</li>
+			<li class="sectionname"><a href="../Selectortypes/Combined.html">Combined</a>
+				<ul class="section">
+
+					<li class="listitem">Adjacent selector</li>
+					<li class="listitem">Next elements selector</li>
+					<li class="listitem">Child elements selector</li>
+					<li class="listitem">Descendants</li>
+
+				</ul>
+
+			</li>
+
+			<li class="sectionname"><a href="Pseudoel.html">Pseudo elements</a>
+
+
+			</li>
+			<li class="sectionname"><a href="Pseudocl.html">Pseudo classes</a>
+
+
+		</ul>
+
+	</div>
+	<ol class="sidearticle">Combined selectors
+		<li class="blockitem">Adjacent selector
+			<p>Комбинатор '+' выбирает элемент, который находится непосредственно после указанного элемента, если у них общий родитель<p>
+			<p>Синтаксис:  A + B<p>
+			<p>Пример: селектор ul + li выберет любой li элемент, который  находится непосредственно после элемента ul.<p>
+
+		</li>
+		<li class="blockitem">Next elements selectors
+			<p>Комбинатор '~' выбирает элементы, которые находятся на этом же уровне вложенности, после указанного элемента, с тем же родителем.<p>
+			<p>Синтаксис: A ~ B<p>
+			<p>Пример:  p ~ span выберет все элементы span, которые находятся после элемента p внутри одного родителя.<p>
+
+		</li>
+		<li class="blockitem">Child elements selector
+			<p>Комбинатор '>' в отличие от пробела выбирает только те элементы, которые являются дочерними непосредственно по отношению к указанному элементу.<p>
+			<p>Синтаксис:  A > B<p>
+			<p>Пример:  селектор ul > li выберет только дочерние элементы li, которые находятся внутри, на первом уровне вложенности по отношению к элементу ul.<p>
+
+		</li>
+		<li class="blockitem">Descendants
+			<p>Комбинатор ' ' (пробел) выбирает элементы, которые находятся внутри указанного элемента (вне зависимости от уровня вложенности).<p>
+			<p>Синтаксис: A B<p>
+			<p>Пример:селектор div span выберет все элементы span, которые находятся внутри элемента div.<p>
+
+		</li>
+
+
+	</ol>
+
+</div>
+
+<main>
+
+	<img src="../../img/logo.svg" alt="smth" >
+
+
+</main>
+<footer style="text-align: center;color: white;font-size: medium">
+	CHI Software
+</footer>
+</body>
+
+
+
+
+</html>
+
+
+
+
