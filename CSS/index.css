@@ -56,6 +56,10 @@ nav{
 a{
     text-decoration: none;
     color: bisque;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 a:hover{
     color: lime;
@@ -65,19 +69,25 @@ p{
     font-size: large;
     margin-top: 5%;
     padding-top: 4%;
+<<<<<<< Updated upstream
 
 
+=======
+    font-family:roboto;
+>>>>>>> Stashed changes
 }
 
 
 .menulist{
     height: 20%;
+    font-family: sans-serif;
 }
 
 
 .Inv1{
     display: inline-block;width: 16%; font-size: 20px;text-align: center;
 
+<<<<<<< Updated upstream
 ;}
 .Inv2{
     display: inline-block;width: 16%; font-size: 20px;text-align: center
@@ -95,6 +105,8 @@ p{
 
 .Inv6
 {display: inline-block;width: 16%;  font-size: 20px;text-align: center
+=======
+>>>>>>> Stashed changes
 ;}
 button {
 
