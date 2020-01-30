@@ -183,7 +183,7 @@ main img{
 .htmlbook-code{
     font-family: sans-serif;
     border-left: black;
-    background: lightgray;
+    background: rgba(17, 90, 76, 0.2);
     width: auto;
     max-width: 650px;
 }
