@@ -37,15 +37,20 @@ html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fanc
 }
 
 header{text-align: center;font-size: 200%;
-    margin-top: 25px}
+    margin-top: 25px;
+font-family: roboto
+}
 
-h1{font-size: 100px;}
+h1{font-size: 100px;
+    font-family: roboto
+}
 
 .menulist{
     height: 40px}
 
 a{text-decoration: none;
     color: bisque;
+    font-family: roboto
 }
 
 
@@ -124,6 +129,7 @@ p {
     padding-left: 25px;
     color: black;
     line-height: 500%;
+    font-family: roboto
 }
 
 .blockitem{
@@ -162,7 +168,7 @@ body{
 
 
 div{
-
+    font-family: roboto;
     width: 100%;
 }
 

@@ -129,12 +129,15 @@ div{
     width: 100%;
 }
 table {
+
     width: 100%;
     display: contents;
+    line-height: 30px;
 }
 
 tr{
     width: 100%;
+    padding: 10px;
 
     margin: auto;
 
@@ -142,14 +145,17 @@ tr{
 
 td{
 
+    border-bottom: white;
+    border-style: ridge;
     width: 500px;
-
+    padding: 10px;
 }
 
 th{
     padding-top: 25px;
     width: auto;
     margin: auto;
+    padding: 10px;
 }
 
 .tablename{
@@ -158,6 +164,7 @@ th{
 
 tbody{
     width: 100%;
+    background: #E8E8E8;
 }
 
 .listitem{
