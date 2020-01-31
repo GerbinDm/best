@@ -142,7 +142,6 @@ table{
     width:100%; display: contents;
 
 
-
 }
 
 tr{
@@ -166,6 +165,7 @@ th{
 
 .tablename{
     padding: 25px;
+
 }
 
 tbody{
@@ -283,4 +283,10 @@ main img{
         float: none;
         width: auto
     }
+    .sidearticle img{
+
+        display: flex;
+        padding-top: 25px;
+        width: 100%;
+        height: 100%;
 }
