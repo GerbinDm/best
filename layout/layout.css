@@ -138,19 +138,19 @@ div.adapt{
     background: orange;
     width: 512px;
 }
-@media (max-width: 1125px) {
+@media (max-width: 1180px) {
     #temnyi-ada, #svetlyi-ada { width: 380px; }
 }
-@media (max-width: 860px) {
+@media (max-width: 920px) {
     #temnyi-ada, #svetlyi-ada { width: 325px; }
 }
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     #temnyi-ada, #svetlyi-ada { width: 200px; }
 }
-@media (max-width: 515px) {
+@media (max-width: 560px) {
     #temnyi-ada, #svetlyi-ada { width: 100px; }
 }
-@media (max-width: 300px) {
+@media (max-width: 360px) {
     #temnyi-ada, #svetlyi-ada { width: 50px; }
 }
 div.ot{

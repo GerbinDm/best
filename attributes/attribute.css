@@ -102,7 +102,7 @@ ol li{
 p {
     padding-left: 25px;
 }
-.blockitem{
+.listitem{
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -206,6 +206,81 @@ main img{
     height: 100%;
 }
 
-.sectionname{
+.listitem{
     font-size: 20px;
+}
+
+@media  (min-width: 350px) and (max-width: 750px) {
+
+    .menulist {
+        height: 40px;
+        grid-template-columns: 50px 50px;
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .twosection {
+        padding-top: 50px;
+        margin: auto;
+        font-size: 15px;
+        padding-left: 15px;
+        height: 50%;
+        display: grid;
+    }
+
+    img ol {
+        display: none
+    }
+
+    .section {
+
+        height: 50%;
+        display: inherit;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+
+    main {
+        height: 95%;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+
+    .sidearticle {
+        /* width: calc(75% - 80px); */
+        float: right;
+        padding-left: 10px;
+        font-size: large;
+        text-align: justify;
+        margin: auto;
+        padding-right: 25px;
+        width: 100%;
+        max-width: 300px;
+        padding-top: 20px;
+    }
+
+    .center {
+        padding-top: 25px;
+        font-size: 15px;
+        padding-left: 15px;
+        display: grid;
+        height: 100%;
+    }
+
+    .listitem {
+        font-size: 20px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .leftsidelist {
+        float: none;
+        width: auto
+    }
 }

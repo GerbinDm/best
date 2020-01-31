@@ -134,7 +134,7 @@ p {
     font-family: roboto
 }
 
-.blockitem{
+.listitem{
 
 
     padding-left: 25px;
@@ -243,6 +243,99 @@ main img{
     padding: 15px;
 }
 
-.sectionname{
+.listitem{
     font-size: 20px;
+}
+
+div img{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-left: calc(100%/2 - 136px);
+    padding-top: 25px;
+}
+
+
+}
+@media  (min-width: 350px) and (max-width: 750px) {
+
+    html{
+        margin: 50px;
+    }
+    .menulist {
+        height: 40px;
+        grid-template-columns: 50px 50px;
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .twosections {
+        padding-top: 50px;
+        margin: auto;
+        font-size: 15px;
+
+        height: 50%;
+
+        padding-left: 0px;
+    }
+
+     div img{
+         width: 100%;
+         padding-top: 25px;
+         margin-left: 0;
+
+     }
+
+    .section {
+
+        height: 0;
+        display: inherit;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+
+    main {
+        height: 50%;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+
+    .sidearticle {
+        /* width: calc(75% - 80px); */
+
+        padding-left: 10px;
+        font-size: large;
+        text-align: justify;
+        margin: auto;
+        padding-right: 25px;
+        width: 100%;
+        max-width: 300px;
+        padding-top: 20px;
+        display: contents;
+    }
+
+    .center {
+        padding-top: 25px;
+        font-size: 15px;
+        padding-left: 15px;
+        display: grid;
+        height: 100%;
+    }
+
+    .listitem {
+        font-size: 20px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .leftsidelist {
+        float: none;
+        width: auto
+    }
 }
