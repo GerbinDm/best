@@ -32,12 +32,17 @@ function secondTask() {
 function ThirdTask() {
     var was=prompt('First number'),h;
     var eat=prompt('Second number');
-    was=+was,eat=+eat;
+        was=+was,
+        eat=+eat;
     h=(was == eat)
     alert(h)
 }
 function FourthTask() {
-    var workDays=prompt('how many days were you work that month?'),hoursPerDay=prompt('how long is Your work day (in hours)'),rate=prompt('what is Your rate?'),dollar=prompt('Dollar course'),sallary;
+    var workDays=prompt('how many days were you work that month?'),
+        hoursPerDay=prompt('how long is Your work day (in hours)'),
+        rate=prompt('what is Your rate?'),
+        dollar=prompt('Dollar course'),
+        sallary;
     workDays=+workDays,hoursPerDay=+hoursPerDay,rate=+rate,dollar=+dollar;
     sallary=workDays*hoursPerDay*rate*dollar;
     alert   ('Your sallary is '+Math.round(sallary)+ ' HRN');
