@@ -18,44 +18,27 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-
-
-
-
-
-
-
-
-
 html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
-
     height: 700px;
     width: auto;
     margin: 20px;
-    max-width: 1850px;
+    max-width:1850px;
 }
-
 header{text-align: center;font-size: 200%;
     margin-top: 25px;
     font-family: roboto;}
-
-h1{font-size: 100px;}
-
+h1{
+    font-size: 100px;}
 .menulist{
     height: 20px}
-
 a{text-decoration: none;
 color: bisque;
     font-family: roboto;
-
 }
-
-
 nav{
     height:10%;
     margin-top: 25px;
 }
-
 .item1{
     display: inline-block;width: 16%; font-size: x-large;text-align: center;
     text-decoration: none;cursor: grabbing;
@@ -69,59 +52,18 @@ nav{
 .item4{
     display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-.item5
-{display: inline-block;width: 16%;  font-size: x-large;text-align: center
+.item5 {
+    display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-.item6
-{display: inline-block;width: 16%;  font-size: x-large;text-align: center
+.item6 {
+    display: inline-block;width: 16%;  font-size: x-large;text-align: center
 ;}
-
-.twosections{ padding-top: 25px;margin: auto; font-size:15px;
-
-height: 20%;
-}
-
-.section {
-    height: 200px;
-    width: 25%;
-    float: left;
-    margin: auto;
-
-    padding-left: 15px;
-}
-
-.sidearticle{
-    height: 200px;
-    width: calc(75% - 33px);
-    float: right;
-    padding-left: 15px;
-
-    border-left-color: black;
-    margin: auto;
-    border-left-style: solid;
-
-}
-
-
-
-
-.mainarticle{
-    text-align: center;
-    margin:auto;
-    ;
-}
-
 main{
-
-
     text-align: center;
     font-size: large;
-;
+    justify-content: center;
+    align-items: flex-end;
 }
-.iframe{
-    max-width: 600px;
-}
-
 Footer{
     margin-top: 15px;
     text-align: center;
@@ -137,80 +79,22 @@ ul li{
 ol li{
     padding-top: 25px;font-size: large;
 }
-div{
+main div div{
     font-family: roboto;
     width: 100%;
-}
-
-
-
-table{
-    width:100%; display: contents;
-
-
+    text-align: left;
+    padding-bottom: 10px;
 
 }
-
-tr{
-    width: 100%;
-
-    margin: auto;
-
+main div div:nth-child(3){
+    padding-bottom: 0px;
 }
-
-td{
-
-    width: 500px;
-
-}
-
-th{
-    padding-top: 25px;
-    width: auto;
-    margin: auto;
-}
-
-.tablename{
-    padding: 25px;
-}
-
-tbody{
-    width: 100%;
-}
-
-.listitem{
-    font-size: 20px;
-}
-
-li .sidearticle{
-    font-family:Arial sans-serif;
-}
-
-
-
-main {
-
-
-
-    font-size: large;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-main img{
-    height: 50px;
-    margin-top:30px;
-
-}
-
 .sidearticle img{
     float: left;
     height: 250px;
     width: 250px;
     padding: 15px;
 }
-
 .listitem{
     font-size: 20px;
 }
