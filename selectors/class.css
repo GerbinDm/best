@@ -215,6 +215,10 @@ float: none;
     padding: 0px;
 }
 
+.primer {
+    background: rgba(17, 90, 76, 0.2);
+}
+
 @media  (min-width: 350px) and (max-width: 750px) {
 
     .menulist {

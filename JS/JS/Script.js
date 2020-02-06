@@ -1,6 +1,6 @@
 'use strict';
 
-function wtf() {
+/*function wtf() {
     let sum = 0;
     let b = 0;
     let n = 1;
@@ -23,6 +23,44 @@ function wtf() {
     }
     alert('Сумма: ' + sum);
     alert(arr);
+}*/
+function wtf() {
+    let b=0,  arr=[], arr1= [];
+    let g;
+    let x=0;
+    switch (true) {
+
+       x= +prompt('first number');
+
+    g=x;
+    if (g % 2 ==0){
+        if(g % 4 ==0){
+            arr.push(x)
+            console.log(x);
+            console.log(arr);
+            console.log(arr1);
+        }else g=g/2;
+            if (g % 2 ==0){
+                arr.push(x)
+            }else arr1.push(x)
+        while (false){
+            if (x>16){
+                arr1.push(x);
+                console.log(x);
+                console.log(arr);
+                console.log(arr1);
+                break
+            }
+            else {
+                x=x+1;
+                b=b+1;
+                console.log(x);
+                console.log(arr);
+                console.log(arr1);
+            }
+
+        }}
+    }
 }
 
 function secondTask() {
