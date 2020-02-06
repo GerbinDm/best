@@ -98,9 +98,3 @@ main div div:nth-child(3){
 .listitem{
     font-size: 20px;
 }
-.example1{
-    display: flex;
-    justify-content: center;
-    float: left;
-;
-}

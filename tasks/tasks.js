@@ -57,6 +57,17 @@ function createFourthIframe () {
     }
     createIframe('iframe4', iframeData);
 }
+function example0() {
+    $( ".example0 img , .example1 img" ).remove();
+
+    let img1 = new Image();
+    img1.src = 'Screenshot_0.png';
+    img1.alt = '';
+    $(".example0").append("<img>");
+    $("img").attr("src", img1.src);
+    $("img").attr("alt", img1.alt);
+
+}
 function createFifthIframe () {
     const iframeData = {
         src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
@@ -69,28 +80,18 @@ function createFifthIframe () {
 }
 
 function example1() {
+
+    $( ".example0 img , .example1 img" ).remove();
     let img = new Image();
     img.src = 'Screenshot_1.png';
     img.alt = '';
     $("div.example1").append("<img>");
     $("img").attr("src", img.src);
     $("img").attr("alt", img.alt);
-    $("div.example1").remove("a");
-
 
 }
 
 
-
-
-function eleventhTask() {
-    $("div.image").append("<img>");
-    $("img").attr("src", img.src);
-    $("img").attr("alt", img.alt);
-    $("img").attr("style", img.style);
-    $("img").attr("width", img.width);
-
-}
 
 
 function createSixthIframe () {
