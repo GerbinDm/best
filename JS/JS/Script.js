@@ -1,13 +1,30 @@
 'use strict';
 
-function firstTask() {
-    var first,second,third;
-    first = prompt ('input value ' );
-    first=+first;
-    second=first*3;
-    third=second +first;
-    alert( first+" "+second+" "+third)
+function wtf() {
+    let sum = 0;
+    let b = 0;
+    let n = 1;
+    let arr = [];
+    let arr2 = [];
+    while (true) {
+        let value = +prompt("Введите " + n + " число", "");
+        console.log(value);
+        if (value) {
+            sum += value;
+            arr.push(value);
+            n += 1;
+            console.log(arr);
+        } else if (isNaN(value)) {
+
+            b = (value.toString);
+            arr2.push(b);
+            console.log(arr2);
+        } else break;
+    }
+    alert('Сумма: ' + sum);
+    alert(arr);
 }
+
 function secondTask() {
     var x=prompt('first number');
     console.log('first number', x);
