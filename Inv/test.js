@@ -107,9 +107,63 @@ function wtf() {
     alert(arr);
 }
 
+function wtf2() {
+     let d;
+     let c;
+     let asd = [];
+    let f;
+    let mas = [];
+    let z=0;
+    let h;
+    let g;
+    while (true) {
+        let sms = +prompt();
+        if (!sms) break;
+        else {
+            c = sms / 2;
+            console.log("c", c);
+            d = Math.round(c);
+            console.log("d", d);
+            if (c == d) { // проверка на четность
+                if (sms % 4 == 0) {   // проверка деления на 4 без остатка
+                    asd.push(sms);
+                    console.log(asd);
+                    console.log(mas)
+                } else {
+                    f = sms / 2;
+                    console.log("f", f);
+                    g = f / 2;
+                    console.log("g", g);
+                    console.log("h", h);
+                }
+                h = Math.round(g);
+                if (h == g) {
+                    asd.push(f);
+                    console.log(asd);
+                    console.log(mas)
+                } else {
+                    mas.push(f);
+                    console.log(asd);
+                    console.log(mas)
+                }
+            } else while (sms < 16) {
+                if (sms < 16) {
+                    sms = sms + 1;
+                    z = z + 1;
+                } else
+                    mas.push(sms);
 
+                console.log(asd);
+                console.log(mas)
+                break;
 
+            }
+        }
 
+        console.log(asd);
+        console.log(mas)
+    }
+}
 
 
 
