@@ -74,6 +74,21 @@ function createFifthIframe () {
     }
     createIframe('iframe5', iframeData);
 }
+<<<<<<< Updated upstream
+=======
+function example1() {
+    let img = new Image();
+    img.src = 'Screenshot_1.png';
+    img.alt = '';
+    $("div.example1").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+    $("div.example1").remove("a");
+
+
+}
+
+>>>>>>> Stashed changes
 function createSixthIframe () {
     const iframeData = {
         src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
