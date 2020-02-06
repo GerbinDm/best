@@ -37,26 +37,19 @@ function createSecondIframe () {
     }
     createIframe('iframe2', iframeData);
 }
-
-
-
-
-
-
-
 function createThirdIframe () {
     const iframeData = {
-        src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+        src: "https://codesandbox.io/embed/correct1-dmtm5?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
         title: "flamboyant-rubin-txopb",
         allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
-        style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
+        style:"width:100%; height:700px; border:0; border-radius: 4px; overflow:hidden;",
         sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
     }
     createIframe('iframe3', iframeData);
 }
 function createFourthIframe () {
     const iframeData = {
-        src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+        src: "https://codesandbox.io/embed/correct2-slsph?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
         title: "flamboyant-rubin-txopb",
         allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
         style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
@@ -74,6 +67,21 @@ function createFifthIframe () {
     }
     createIframe('iframe5', iframeData);
 }
+function example1() {
+    var img = new Image();
+    img.src = 'Screenshot_1.png'
+}
+
+
+function eleventhTask() {
+    $("div.image").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+    $("img").attr("style", img.style);
+    $("img").attr("width", img.width);
+
+}
+
 function createSixthIframe () {
     const iframeData = {
         src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
