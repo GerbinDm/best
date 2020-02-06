@@ -67,10 +67,20 @@ function createFifthIframe () {
     }
     createIframe('iframe5', iframeData);
 }
+
 function example1() {
-    var img = new Image();
-    img.src = 'Screenshot_1.png'
+    let img = new Image();
+    img.src = 'Screenshot_1.png';
+    img.alt = '';
+    $("div.example1").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+    $("div.example1").remove("a");
+
+
 }
+
+
 
 
 function eleventhTask() {
@@ -81,6 +91,7 @@ function eleventhTask() {
     $("img").attr("width", img.width);
 
 }
+
 
 function createSixthIframe () {
     const iframeData = {
