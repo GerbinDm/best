@@ -87,7 +87,7 @@ main div div{
 
 }
 main div div:nth-child(3){
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 .sidearticle img{
     float: left;
