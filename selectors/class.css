@@ -301,4 +301,7 @@ float: none;
     section img{
         width:100%;
     }
+    pre.primer{
+        font-size: 11px;
+    }
 }
