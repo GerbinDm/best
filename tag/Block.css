@@ -33,6 +33,9 @@ h1{font-size: 100px;}
 a{text-decoration: none;
     color: bisque;
 }
+a:hover{
+    color: lime;
+}
 nav{
     height:10%;
     margin-top: 25px;
