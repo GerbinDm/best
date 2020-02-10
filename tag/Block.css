@@ -33,6 +33,9 @@ h1{font-size: 100px;}
 a{text-decoration: none;
     color: bisque;
 }
+a:hover{
+    color: lime;
+}
 nav{
     height:10%;
     margin-top: 25px;
@@ -207,6 +210,7 @@ ul img{
 
 div img{
         margin:9px;padding-top: 100px;
+        width:20%;
 
 }
 @media  (min-width: 350px) and (max-width: 750px) {
@@ -286,6 +290,7 @@ padding: unset;
     div img{
         margin-left: calc(100%/2 - 165px);
         margin-top: 25px;
+        width: 50%;
     }
 ul img{
 

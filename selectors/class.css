@@ -36,6 +36,9 @@ a{text-decoration: none;
     color: bisque;
     font-family: roboto;
 }
+a:hover{
+    color: lime;
+}
 nav{
     height:10%;
     margin-top: 25px;
@@ -300,5 +303,8 @@ float: none;
     }
     section img{
         width:100%;
+    }
+    pre.primer{
+        font-size: 11px;
     }
 }

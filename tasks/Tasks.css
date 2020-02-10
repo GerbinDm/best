@@ -34,6 +34,10 @@ h1{
 a{text-decoration: none;
 color: bisque;
     font-family: roboto;
+
+}
+a:hover{
+    color: lime;
 }
 nav{
     height:10%;
@@ -97,10 +101,4 @@ main div div:nth-child(3){
 }
 .listitem{
     font-size: 20px;
-}
-.example1{
-    display: flex;
-    justify-content: center;
-    float: left;
-;
 }
