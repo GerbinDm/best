@@ -57,8 +57,9 @@ function createFourthIframe () {
     }
     createIframe('iframe4', iframeData);
 }
+
 function example0() {
-    $( ".example0 img , .example1 img .example2 img" ).remove();
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
 
     let img1 = new Image();
     img1.src = 'Screenshot_0.png';
@@ -68,6 +69,7 @@ function example0() {
     $("img").attr("alt", img1.alt);
 
 }
+
 function createFifthIframe () {
     const iframeData = {
         src: "https://codesandbox.io/embed/5lists-oced5?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
@@ -79,7 +81,8 @@ function createFifthIframe () {
     createIframe('iframe5', iframeData);
 }
 function example1() {
-    $( ".example0 img , .example1 img, .example2 img" ).remove();
+
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
     let img = new Image();
     img.src = 'Screenshot_1.png';
     img.alt = '';
@@ -99,14 +102,15 @@ function createSixthIframe () {
 }
 function example2() {
 
-    $( ".example0 img , .example1 img , .example2 img" ).remove();
+
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
+
     let img = new Image();
     img.src = 'Screenshot_2.png';
     img.alt = '';
     $("div.example2").append("<img>");
     $("img").attr("src", img.src);
     $("img").attr("alt", img.alt);
-
 }
 function createSeventhIframe () {
     const iframeData = {
@@ -116,6 +120,84 @@ function createSeventhIframe () {
         style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
         sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
     }
+    createIframe('iframe7', iframeData);
+}
+function example3() {
+
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
+    let img = new Image();
+    img.src = 'Screenshot_3.png';
+    img.alt = '';
+    $("div.example3").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+
+}
+function createEightsIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/flag-vj92d?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+
+
+}
+function createSeventhIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/tablehard-cofdt?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+
+        title: "flamboyant-rubin-txopb",
+        allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
+        style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
+        sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
+    }
+
+    createIframe('iframe8', iframeData);
+}
+function example4() {
+
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
+
+    let img = new Image();
+    img.src = 'Screenshot_4.png';
+    img.alt = '';
+    $("div.example4").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+
+}
+function createNinethIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/3pages-97y8f?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+        title: "flamboyant-rubin-txopb",
+        allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
+        style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
+        sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
+    }
+    createIframe('iframe9', iframeData);
+}
+function createTenthIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/float-mfutz?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+        title: "flamboyant-rubin-txopb",
+        allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
+        style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
+        sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
+    }
+    createIframe('iframef', iframeData);
+}
+function example5() {
+
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
+
+    let img = new Image();
+    img.src = 'Screenshot_5.png';
+    img.alt = '';
+    $("div.example5").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+
+}
+function createEleventhIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/cssnavbar-fitvg?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
     createIframe('iframe7', iframeData);
 }
 function example3() {
@@ -153,21 +235,45 @@ function example4() {
 function createNinethIframe () {
     const iframeData = {
         src: "https://codesandbox.io/embed/3pages-97y8f?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+
         title: "flamboyant-rubin-txopb",
         allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
         style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
         sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
     }
+
     createIframe('iframe9', iframeData);
 }
 function createTenthIframe () {
     const iframeData = {
         src: "https://codesandbox.io/embed/float-mfutz?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+
         title: "flamboyant-rubin-txopb",
         allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
         style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
         sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
     }
+
+
+}
+
+
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
+
+    let img = new Image();
+    img.src = 'Screenshot_6.png';
+    img.alt = '';
+    $("div.example6").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+
+
+
+
+
+function eleventhTask() {
+    $("div.image").append("<img>");
+
     createIframe('iframef', iframeData);
 }
 function example5() {
@@ -177,6 +283,7 @@ function example5() {
     img.src = 'Screenshot_5.png';
     img.alt = '';
     $("div.example5").append("<img>");
+
     $("img").attr("src", img.src);
     $("img").attr("alt", img.alt);
 
@@ -212,6 +319,32 @@ function createThirteenIframe () {
         sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
     }
 
+
+function createSixthIframe () {
+    $( ".example0 img, .example1 img, .example2 img, .example3 img, .example4 img, .example5 img, .example6 img, .example7 img, .example8 img, .example9 img, .example10 img " ).remove();
+    let img = new Image();
+    img.src = 'Screenshot_7.png';
+    img.alt = '';
+    $("div.example7").append("<img>");
+    $("img").attr("src", img.src);
+    $("img").attr("alt", img.alt);
+}
+
+function createFiftinIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+        title: "flamboyant-rubin-txopb",
+        allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
+        style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
+        sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
+    }
+
+    createIframe('iframe15', iframeData);
+}
+function createSixteenIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+
     createIframe('iframe13', iframeData);
 }
 function example6() {
@@ -228,11 +361,28 @@ function example6() {
 function createFourteenIframe () {
     const iframeData = {
         src: "https://codesandbox.io/embed/3cues-xvh8t?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+
         title: "flamboyant-rubin-txopb",
         allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
         style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
         sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
     }
+
+
+    createIframe('iframe16', iframeData);
+}
+function createSeventeenIframe () {
+    const iframeData = {
+        src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
+        title: "flamboyant-rubin-txopb",
+        allow: "geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
+        style:"width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;",
+        sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin",
+    }
+
+    createIframe('iframe17', iframeData);
+}
+function createEighteenIframe () {
 
     createIframe('iframe14', iframeData);
 }
@@ -255,6 +405,7 @@ function example7() {
 
 
 function createFiftinIframe () {
+
     const iframeData = {
         src: "https://codesandbox.io/embed/flamboyant-rubin-txopb?expanddevtools=1&fontsize=14&hidenavigation=1&module=%2Findex.html&theme=dark",
         title: "flamboyant-rubin-txopb",
