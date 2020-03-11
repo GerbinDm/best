@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>HTML/CSS</title>
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans|Roboto&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../class.css">
+
+</head>
+<body>
+<Header>
+	<a href="../../old_index/index.html">HTML/CSS Guide</a>
+</Header>
+<nav>
+ 
+	<menu class="menulist">
+		<li class="item1"><a href="../../tag/tags.html">Tags</a></li>
+		<li class="item2"><a href="../selectors.html" style="color: greenyellow">Selectors</a></li>
+		<li class="item3"><a href="../../attributes/attributes.html">Attributes</a></li>
+		<li class="item4"><a href="../../layout/layout.html">Layout</a></li>
+
+		<li class="item6"><a href="../../tasks/Tasks.html">Tasks</a></li>
+	</menu>
+</nav>
+<div class="center">
+	<div class="leftsidelist">
+		<ul>
+	<li class="sectionname"><a href="../Selectortypes/Base.html" style="color: greenyellow">Base</a>
+		<ul class="section">
+
+			<li class="listitem">Tag selector</li>
+		<li class="listitem">Class selector</li>
+		<li class="listitem">ID</li>
+			<li class="listitem">Universal</li>
+			<li class="listitem">Attribute selector</li>
+
+	</ul>
+	</li>
+			<li class="sectionname"><a href="Combined.html">Combined</a>
+
+
+			</li>
+
+			<li class="sectionname"><a href="Pseudoel.html">Pseudo elements</a>
+
+
+			</li>
+			<li class="sectionname"><a href="Pseudocl.html">Pseudo classes</a>
+
+
+				</ul>
+
+	</div>
+	<ol class="sidearticle">General info
+		<li class="blockitem">Tag selector
+			<p>Этот базовый селектор выбирает тип элементов, к которым будет применяться правило.<p>
+			<p>Синтаксис: "элемент"<p>
+			<p>Пример: селектор input выберет все элементы < input >.<p>
+
+		</li>
+		<li class="blockitem">Class selector
+			<p>Этот базовый селектор выбирает элементы, основываясь на значении их атрибута class.<p>
+			<p>Синтаксис: .имяКласса<p>
+			<p>Пример:  селектор .index выберет все элементы с соответствующим классом (который был определен в атрибуте class="index").<p>
+
+		</li>
+		<li class="blockitem">ID selector
+			<p>Этот базовый селектор выбирает элементы, основываясь на значении их id атрибута. Не забывайте, что идентификатор должен быть уникальным, т. е. использоваться только для одного элемента в HTML-документе. <p>
+			<p>Синтаксис: #имяИдентификатора<p>
+			<p>Пример: селектор #toc выберет элемент с идентификатором toc (который был определен в атрибуте id="toc").<p>
+
+		</li>
+		<li class="blockitem">Universal selector
+			<p>Выбирает все элементы. По желанию, он может быть ограничен определенным пространством имен или относиться ко всему пространству имён.<p>
+			<p>Синтаксис: * ns|* *|*<p>
+			<p> * будет соответствовать всем элементам на странице.<p>
+
+		</li>
+		<li class="blockitem">Attribute selector
+			<p>Этот селектор выбирает все элементы, имеющие данный атрибут или атрибут с определённым значением.<p>
+			<p>Синтаксис: [attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]<p>
+			<p>Пример: селектор [autoplay] выберет все элементы, у которых есть  атрибут autoplay (независимо от его значения).<p>
+            <p>Ещё пример: a[href$=".jpg"] выберет все ссылки, у которых адрес заканчивается на ".jpg".</p>
+	        <p>Ещё пример: a[href^="https"] выберет все ссылки, у которых адрес начинается на "https".</p>
+		</li>
+
+	</ol>
+
+</div>
+
+<main>
+
+	<img src="../../img/logo.svg" alt="smth" >
+
+
+</main>
+<footer style="text-align: center;color: white;font-size: medium">
+	CHI Software
+</footer>
+</body>
+
+
+
+
+</html>
+
+
+
+

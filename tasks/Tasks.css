@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
+    height: 700px;
+    width: auto;
+    margin: 20px;
+    max-width:1850px;
+}
+header{text-align: center;font-size: 200%;
+    margin-top: 25px;
+    font-family: roboto;}
+h1{
+    font-size: 100px;}
+.menulist{
+    height: 20px}
+a{text-decoration: none;
+color: bisque;
+    font-family: roboto;
+
+}
+a:hover{
+    color: lime;
+}
+nav{
+    height:10%;
+    margin-top: 25px;
+}
+.item1{
+    display: inline-block;width: 19%; font-size: x-large;text-align: center;
+    text-decoration: none;cursor: grabbing;
+;}
+.item2{
+    display: inline-block;width: 19%; font-size: x-large;text-align: center
+;}
+.item3{
+    display: inline-block;width: 19%; font-size: x-large;text-align: center
+;}
+.item4{
+    display: inline-block;width: 19%;  font-size: x-large;text-align: center
+;}
+
+.item6
+{display: inline-block;width: 19%;  font-size: x-large;text-align: center
+;}
+main{
+    text-align: center;
+    font-size: large;
+    justify-content: center;
+    align-items: flex-end;
+}
+Footer{
+    margin-top: 15px;
+    text-align: center;
+    height: 10%;
+    float: bottom;
+}
+body{
+    height: 100%;
+}
+ul li{
+    padding-top: 25px;font-size: large;
+}
+ol li{
+    padding-top: 25px;font-size: large;
+}
+main div div{
+    font-family: roboto;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+main div div:nth-child(3){
+    padding-bottom: 0;
+}
+.sidearticle img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+}
+.listitem{
+    font-size: 20px;
+}

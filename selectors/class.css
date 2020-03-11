@@ -1,0 +1,308 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
+    height: auto;
+    width: auto;
+    margin: 20px;
+    max-width: 1850px;
+}
+header{text-align: center;font-size: 200%;
+    margin-top: 25px;
+    font-family: roboto;}
+h1{
+    font-size: 100px;}
+.menulist{
+    height: 40px}
+a{text-decoration: none;
+    color: bisque;
+    font-family: roboto;
+}
+a:hover{
+    color: lime;
+}
+nav{
+    height:10%;
+    margin-top: 25px;
+}
+.item1{
+    display: inline-block;width: 19%; font-size: x-large;text-align: center;
+    text-decoration: none;cursor: grabbing;
+;}
+.item2{
+    display: inline-block;width: 19%; font-size: x-large;text-align: center
+;}
+.item3{
+    display: inline-block;width: 19%; font-size: x-large;text-align: center
+;}
+.item4{
+    display: inline-block;width: 19%;  font-size: x-large;text-align: center
+;}
+
+.item6
+{display: inline-block;width: 19%;  font-size: x-large;text-align: center
+;}
+.center{ padding-top: 25px;
+    font-size:15px;
+    padding-left: 15px;
+    display: table;
+    height: 100%;
+}
+.leftsidelist{
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+}
+.section {
+    padding-left: 30px;
+    height: 50%;
+}
+.section2 {
+    padding-left: 30px;
+    height: 50%;
+}
+.sidearticle{
+    width: calc(75% - 80px);
+    float: right;
+    padding-left: 10px;
+    font-size: large;
+    text-align: justify;
+    margin: auto;
+    padding-right: 25px;
+}
+ul{
+    font-size: large;
+}
+ul li{
+    font-size: large; padding-top: 25px;
+}
+ol li{
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-top: 25px;font-size: large;
+}
+p {
+    padding-left: 25px;
+}
+.listitem{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.mainarticle{
+    text-align: center;
+
+    padding: 15px;
+}
+main{
+
+
+    text-align: center;
+    font-size: large;
+;
+}
+Footer{
+    margin-top: 15px;
+    text-align: center;
+    height: 10%;
+    float: bottom;
+}
+body{
+    height: 100%;
+}
+div{
+    font-family: roboto;
+    width: 100%;
+}
+table {
+
+    width: 100%;
+    display: contents;
+    line-height: 30px;
+}
+
+tr{
+    width: 100%;
+    padding: 10px;
+
+    margin: auto;
+
+}
+
+td{
+
+    border-bottom: white;
+    border-style: ridge;
+    width: 500px;
+    padding: 10px;
+    font-family: roboto;
+}
+
+th{
+    padding-top: 25px;
+    width: auto;
+    margin: auto;
+    padding-left: 10px;
+
+}
+
+.tablename{
+    padding: 25px;
+}
+
+tbody{
+    width: 100%;
+    background: #E8E8E8;
+    font-size: 14px;
+
+}
+
+.listitem{
+    font-size: 20px;
+}
+
+li .sidearticle{
+    font-family:Arial sans-serif;
+}
+
+main {
+
+    height: 100px;
+
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main img{
+    height: 50px;
+    margin-top:30px;
+
+}
+
+
+.listitem{
+    font-size: 20px;
+}
+
+p.tablename{
+  color: black;
+
+}
+
+.
+
+.sidearticle img{
+float: none;
+    width: auto;
+    padding: 0px;
+}
+
+.primer {
+    background: rgba(17, 90, 76, 0.2);
+}
+
+@media  (min-width: 350px) and (max-width: 750px) {
+
+    .menulist {
+        height: 40px;
+        grid-template-columns: 50px 50px;
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .twosection {
+        padding-top: 50px;
+        margin: auto;
+        font-size: 15px;
+        padding-left: 15px;
+        height: 50%;
+        display: grid;
+    }
+
+   img  {
+
+    }
+
+    .section {
+
+        height: 50%;
+        display: inherit;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+
+    main {
+        height: 535%;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+
+    .sidearticle {
+        /* width: calc(75% - 80px); */
+        float: right;
+        padding-left: 10px;
+        font-size: large;
+        text-align: justify;
+        margin: auto;
+        padding-right: 25px;
+        width: 100%;
+        max-width: 300px;
+        padding-top: 20px;
+    }
+
+    .center {
+        padding-top: 25px;
+        font-size: 15px;
+        padding-left: 15px;
+        display: grid;
+        height: 100%;
+    }
+
+    .listitem {
+        font-size: 20px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .leftsidelist {
+        float: none;
+        width: auto
+    }
+    ul{
+        list-style-type: none;
+    }
+    .sidearticle img{
+        width: 120%;
+    }
+    section img{
+        width:100%;
+    }
+    pre.primer{
+        font-size: 11px;
+    }
+}

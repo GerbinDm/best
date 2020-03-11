@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Resorts</title>
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans|Roboto&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../class.css">
+
+</head>
+<body>
+<Header>
+	<a href="../../old_index/index.html">HTML/CSS Guide</a>
+</Header>
+<nav>
+
+	<menu class="menulist">
+		<li class="item1"><a href="../../tag/tags.html">Tags</a></li>
+		<li class="item2"><a href="../selectors.html" style="color: greenyellow">Selectors</a></li>
+		<li class="item3"><a href="../../attributes/attributes.html">Attributes</a></li>
+		<li class="item4"><a href="../../layout/layout.html">Layout</a></li>
+
+		<li class="item6"><a href="../../tasks/Tasks.html">Tasks</a></li>
+	</menu>
+</nav>
+<div class="center">
+	<div class="leftsidelist">
+		<ul>
+			<li class="sectionname"><a href="Base.html">Base</a>
+
+			</li>
+			<li class="sectionname"><a href="Combined.html">Combined</a>
+
+			</li>
+
+			<li class="sectionname"><a href="Pseudoel.html">Pseudo elements</a>
+
+
+			</li>
+			<li class="sectionname"><a href="../Selectortypes/Pseudocl.html" style="color: greenyellow">Pseudo classes</a>
+				<ul class="section">
+
+					<li class="listitem">:active</li>
+					<li class="listitem">:any-link</li>
+					<li class="listitem">:checked</li>
+					<li class="listitem">:default</li>
+					<li class="listitem">:disabled</li>
+				</ul>
+
+			</li>
+		</ul>
+	</div>
+	<ol class="sidearticle">Pseudo classes
+		<li class="blockitem">General
+			<p>Знак : позволяет выбрать элементы, основываясь на информации, которой нет в дереве элементов.<p>
+			<p>Пример: a:visited соответствует всем элементам "a" которые имеют статус "посещённые".<p>
+			<p>Ещё пример: div:hover соответствует элементу, над которым проходит указатель мыши.<p>
+			<p>Ещё пример: input:focus соответствует полю ввода, которое получило фокус.<p>
+
+		<li class="blockitem"> :active
+			<p>Псевдокласс :active соответствует элементу в момент, когда он активируется пользователем. Он позволяет странице среагировать, когда элемент активируется. Взаимодействие элемента с мышью - это, как правило, время между нажатием и отпусканием пользователем кнопки мыши.<p>
+			<p style="padding-top: 5px">Задача:/*  Любой элемент "a", который будет активирован */<p>
+
+			<p>a:active {</p>
+			<p> color: red;}</p>
+		</li>
+
+		<li class="blockitem"> ::any-link
+			<p>Селектор псевдокласса  CSS :any-link представляет собой элемент, который действует как исходный якорь гиперссылки,  независимо от того, была ли она посещена. Другими словами, он соответствует всем элементам "a", "area", или "link", которые имеют атрибути href.  Таким образом, он соответствует всем элементам, которые используют :link или :visited.<p>
+			<p style="padding-top: 5px">Задача:/* Выбирает любой элемент, который будет соответствовать:link или :visited */<p>
+
+			<p>:any-link {</p>
+			<p> color: green; }</p>
+		</li>
+
+		<li class="blockitem"> ::checked
+			<p>CSS псевдоклассы :checked CSS находит любые элементы radio (&gt;input type="radio">), checkbox (&gt;input type="checkbox">) или option (&gt;option> внутри &gt;select>), которые выбраны или включены. Пользователь может изменить это состояние, нажав на элемент, или выбрав другое значение, в этом случае :checked повторно не применится к элементу, а сохранится.<p>
+			<p style="padding-top: 5px">Задача:/* любой "кликабельный" элемент */<p>
+
+			<p>:checked {</p>
+			<p> width: 50px;</p>
+			<p> height: 50px;}</p>
+
+			<p style="padding-top: 5px">Задача:/* только радиокнопки */<p>
+
+			<p>input[type="radio"]:checked {</p>
+			<p>  margin-left: 25px;</p>
+			<p> }</p>
+
+
+		</li>
+
+		<li class="blockitem"> ::default
+			<p> CSS псевдо-класс :default находит элемент формы, установленный по умолчанию для группы связаных элементов.
+
+				Этот селектор используется для  элементов:< button&gt;, < input type="checkbox"&gt;, < input type="radio" &gt;, и < option &gt; .<p>
+			<p>Сгруппированные элементы, поддерживающие множественный выбор, также могут иметь несколько элементов, выбранных по умолчанию. В этом случае псевдокласс :default найдет все эти элементы. Например, можно стилизовать чекбоксы по умолчанию в группе чекбоксов.</p>
+			<p style="padding-top: 5px">Задача:/* Выбрать установленный по умолчанию среди input */<p>
+
+			<p>input:default {</p>
+			<p>background-color: lime;}</p>
+
+		</li>
+
+		<li class="blockitem"> ::disabled
+			<p>CSS псевдо-класс :disabled находит любой отключенный элемент. Элемент отключен, если не может быть активирован (например, его нельзя выбрать, нажать на него или ввести текст) или получить фокус. У элемента также есть включенное состояние, когда его можно активировать или сфокусировать.
+
+			<p>
+			<p style="padding-top: 5px">Примеры:<p>
+
+			<p>input:disabled -</p>
+
+			<p>Выберет все отключенные поля ввода</p>
+				<p>select.country:disabled -
+				</p>
+				<p>Найдёт все отключенные select элементы с классом country</p>
+		</li>
+
+
+
+
+	</ol>
+
+</div>
+
+<main>
+
+	<img src="../../img/logo.svg" alt="smth" >
+
+
+</main>
+<footer style="text-align: center;color: white;font-size: medium">
+	CHI Software
+</footer>
+</body>
+
+
+
+
+</html>
+
+
+
+
+
+
+
