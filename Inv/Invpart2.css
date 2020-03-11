@@ -1,0 +1,122 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+.container{
+    height: 600px;
+}
+.img {
+    height: 400px;
+    width: 400px;
+}
+html{background-image: url(https://ocnttum.if.ua/wp-content/uploads/2017/10/Fancy-Html-Page-Background-Color-88-On-Coloring-Site-with-Html-Page-Background-Color.jpg);
+
+    height: auto;
+    width:auto;
+}
+
+header{text-align: center;font-size: 200%;}
+
+h1{font-size: 100px;}
+
+.menulist{
+    height: 40px}
+
+a{text-decoration: none;
+    color: bisque;
+}
+
+
+nav{
+    height:10%;
+    margin-top: 50px;
+}
+
+.item1{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
+    text-decoration: none;cursor: grabbing;
+;}
+.item2{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.item3{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.item4{
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.item5
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.item6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+
+section {
+    border: solid 1px coral;
+    padding: 5px;
+}
+p{
+    margin: 0;
+}
+
+.listitem{
+
+
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.mainarticle{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+
+}
+.maincontent {
+
+
+}
+main{
+    padding-top: 50px;
+    height: auto;
+    text-align: center;
+    font-size: large;
+;
+
+}
+
+Footer{
+    margin: 250px;
+    text-align: center;
+    height: 10%;
+    float: bottom;
+}
+
+body{
+    height: auto;
+}

@@ -1,0 +1,143 @@
+.full{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.ab1{
+    background: palegoldenrod;
+    margin-right: 10px;
+}
+.ab2{
+    background: lightblue;
+}
+.ab3{
+    background: darkseagreen;
+    margin-right: 10px;
+}
+.ab4{
+    background: lightgoldenrodyellow;
+}
+.ab5{
+    background: lightgrey;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.ab6{
+    background: lightsteelblue;
+}
+.first_part{
+    background: white;
+    display: flex;
+    padding: 5px;
+    width: calc(100%/2 - 10px);
+    float: left;
+}
+
+.ab1, .ab2{
+    padding: 5px;
+}
+.second_part{
+    background: white;
+    display: flex;
+    padding: 5px;
+    width: calc(100%/2 - 10px);
+}
+.ab3, .ab4{
+    padding: 5px;
+    flex-basis: 50%;
+    word-break: break-all;
+}
+.third_part{
+    background: white;
+    display: flex;
+    padding: 5px;
+
+    float: left;
+
+}
+
+.ab5, .ab6{
+    padding: 5px;
+}
+@media screen and (min-width: 375px) and (max-width: 1024px){
+    .first_part{
+        background: white;
+        display: flex;
+        padding: 5px;
+        width: calc(100%/2 - 15px);
+        flex-direction: column-reverse;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .ab1 {
+        padding: 5px;
+        margin-right: 0;
+        flex-basis: 50%;
+    }
+    .ab2{
+        margin-bottom: 10px;
+        flex-basis: 50%;
+    }
+    .second_part{
+        background: white;
+        display: flex;
+        padding: 5px;
+        width: calc(100%/2 - 15px);
+        flex-direction: row-reverse;
+    }
+    .ab3{
+        padding: 5px;
+        margin: 0;
+    }
+    .ab4{
+        margin-right: 15px;
+    }
+    .third_part{
+        background: white;
+        display: flex;
+        padding: 5px;
+        width: calc(100% - 20px);
+        flex-flow: column;
+
+    }
+    .ab5{
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .ab6{
+        padding: 5px;
+    } }
+@media screen and (min-width: 150px) and (max-width: 375px) {
+
+    .first_part {
+        background: white;
+        flex-flow: column;
+        padding: 5px;
+        width: auto;
+    }
+
+
+    .second_part {
+        background: white;
+        flex-flow: column;
+        padding: 5px;
+        width: auto;
+
+    }
+
+    .third_part {
+        background: white;
+        flex-flow: column;
+        padding: 5px;
+        width: auto;
+
+    }
+    .ab1, .ab2, .ab3, .ab4, .ab5, .ab6{
+        margin-right: 0;
+    }
+    .ab1, .ab3, .ab5{
+        margin-bottom: 10px;
+    }
+}

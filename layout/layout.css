@@ -60,6 +60,7 @@ nav{
 }
 
 .item1{
+
     display: inline-block;width: 19%; font-size: x-large;text-align: center;
     text-decoration: none;cursor: grabbing;
 ;}
@@ -76,6 +77,7 @@ nav{
 .item6
 {display: inline-block;width: 19%;  font-size: x-large;text-align: center
 ;}
+
 div .image  {
     justify-content: center;
     display: flex;

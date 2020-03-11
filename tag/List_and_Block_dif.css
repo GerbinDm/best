@@ -64,6 +64,7 @@ nav{
 }
 
 .item1{
+
     display: inline-block;width: 19%; font-size: x-large;text-align: center;
     text-decoration: none;cursor: grabbing;
 ;}
@@ -79,6 +80,7 @@ nav{
 
 .item6
 {display: inline-block;width: 19%;  font-size: x-large;text-align: center
+
 ;}
 .twosections{ padding-top: 25px;margin: auto;
     font-size:15px;

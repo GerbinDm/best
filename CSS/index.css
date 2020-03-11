@@ -1,25 +1,46 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 html{
     width: 100%;
     height: 100%;
     background-image: url("https://cdn.oboi7.com/content/images/99/7d/997d621e5926bef4081726aac49f5b16d684b5be.jpg?oboi7.com-97802.jpg");
 }
-
+.title{
+    font-size: 30px;
+}
+.main{
+    font-size: 60px;
+}
 body{
     height: 100%;
 }
-
 div{
     color: whitesmoke;
-    height: 60%;
+    height: auto;
+    margin-bottom: 100px;
 }
 
-nav{
-
-    height: 40%;
-}
-<<<<<<< Updated upstream
 
 .item1{
+
     display: inline-block;width: 24%; font-size: 20px;text-align: center;
     text-decoration: none;
 ;}
@@ -28,42 +49,83 @@ nav{
 ;}
 .item3{
     display: inline-block;width: 24%; font-size: 20px;text-align: center
-=======
-.item1{
-    display: inline-block;width: 19%; font-size: x-large;text-align: center;
-    text-decoration: none;cursor: grabbing;
-;}
-.item2{
-    display: inline-block;width: 19%; font-size: x-large;text-align: center
-;}
-.item3{
-    display: inline-block;width: 19%; font-size: x-large;text-align: center
-;}
-.item4{
-    display: inline-block;width: 19%;  font-size: x-large;text-align: center
->>>>>>> Stashed changes
+
 ;}
 .item4{
     display: inline-block;width: 24%;  font-size: 20px;text-align: center}
 
-<<<<<<< Updated upstream
+
 a{
     text-decoration: none;
     color: bisque;
+    font-family:Sans-Serif;
 }
-=======
+a:hover{
+    color: lime;
+}
+
 .item6
 {display: inline-block;width: 19%;  font-size: x-large;text-align: center
 ;}
 button {
->>>>>>> Stashed changes
 
 p{
     text-align: center;
     font-size: large;
-    margin-top: 5%;
-    padding-top: 4%;
-;
-;
+    margin-top: 4%;
+    padding-top: 3%;
+    font-family:roboto;
+}
+.menulist{
+    height: 10%;
+    font-family: sans-serif;
+}
+.Inv1 .Inv2 .Inv3 .Inv4 .Inv5 .Inv6{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center;
 
+;}
+.Inv2{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv3{
+    display: inline-block;width: 16%; font-size: 20px;text-align: center
+;}
+.Inv4{
+    display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv5
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+;}
+
+.Inv6
+{display: inline-block;width: 16%;  font-size: 20px;text-align: center
+
+;}
+button {
+
+    text-align: center;
+    font-size:0;
+    background: transparent;
+    border: none !important;
+    display: inline-block;
+
+    height: 20px;
+    width: 20px;
+}
+.buttons_hidden{ text-align: center;
+display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.study {
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:roboto;
+    margin-bottom: 50px;
+    color: whitesmoke;
 }

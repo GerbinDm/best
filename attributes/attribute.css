@@ -43,6 +43,7 @@ nav{
     margin-top: 25px;
 }
 .item1{
+
     display: inline-block;width: 19%; font-size: x-large;text-align: center;
     text-decoration: none;cursor: grabbing;
 ;}
@@ -58,7 +59,11 @@ nav{
 
 .item6
 {display: inline-block;width: 19%;  font-size: x-large;text-align: center
+
+    display: inline-block;width: 16%; font-size: x-large;text-align: center;
+    text-decoration: none;cursor: grabbing;
 ;}
+
 .center{ padding-top: 25px;
     font-size:15px;
     padding-left: 15px;
@@ -290,4 +295,6 @@ main img{
         padding-top: 25px;
         width: 100%;
         height: 100%;
+
 }}
+
