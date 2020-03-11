@@ -40,20 +40,22 @@ div{
 
 
 .item1{
-
-    display: inline-block;width: 24%; font-size: 20px;text-align: center;
-    text-decoration: none;
+    display: inline-block;width: 19%; font-size: x-large;text-align: center;
+    text-decoration: none;cursor: grabbing;
 ;}
 .item2{
-    display: inline-block;width: 24%; font-size: 20px;text-align: center
+    display: inline-block;width: 19%; font-size: x-large;text-align: center
 ;}
 .item3{
-    display: inline-block;width: 24%; font-size: 20px;text-align: center
-
+    display: inline-block;width: 19%; font-size: x-large;text-align: center
 ;}
 .item4{
-    display: inline-block;width: 24%;  font-size: 20px;text-align: center}
+    display: inline-block;width: 19%;  font-size: x-large;text-align: center
+;}
 
+.item6
+{display: inline-block;width: 19%;  font-size: x-large;text-align: center
+;}
 
 a{
     text-decoration: none;
@@ -64,10 +66,8 @@ a:hover{
     color: lime;
 }
 
-.item6
-{display: inline-block;width: 19%;  font-size: x-large;text-align: center
-;}
-button {
+
+
 
 p{
     text-align: center;

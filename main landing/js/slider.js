@@ -27,53 +27,54 @@ line.onclick=function () {
 console.log(div)
         console.log(step)
         switch (step) {
-            case 0:
-                $('.inner').append('<p>немного текста о первом человеке</p>');
-                break;
+
             case 1:
-                $('.inner').append('<p>немного текста о selectors человеке</p>');
+                $('.inner').append('<p>Сашка</p>');
                 break;
             case 2:
-                $('.inner').append('<p>немного текста о attributes человеке</p>');
+                $('.inner').append('<p>Димка</p>');
                 break;
             case 3:
-                $('.inner').append('<p>немного текста о layout человеке</p>');
+                $('.inner').append('<p>Стас!</p>');
                 break;
             case 4:
-                $('.inner').append('<p>немного текста о JS человеке</p>');
+                $('.inner').append('<p>Серега</p>');
                 break;
             case 5:
-                $('.inner').append('<p>немного текста о tasks человеке</p>');
+                $('.inner').append('<p>Марина</p>');
                 break;
             case 6:
-                $('.inner').append('<p>немного текста о 7 человеке</p>');
+                $('.inner').append('<p>Рома</p>');
                 break;
             case 7:
-                $('.inner').append('<p>немного текста о 8 человеке</p>');
+                $('.inner').append('<p>еще один Серега</p>');
                 break;
             case 8:
-                $('.inner').append('<p>немного текста о 9 человеке</p>');
+                $('.inner').append('<p>Влад</p>');
                 break;
             case 9:
-                $('.inner').append('<p>немного текста о 10 человеке</p>');
+                $('.inner').append('<p>Свят</p>');
                 break;
             case 10:
-                $('.inner').append('<p>немного текста о 11 человеке</p>');
+                $('.inner').append('<p>Ира</p>');
                 break;
             case 11:
-                $('.inner').append('<p>немного текста о 12 человеке</p>');
+                $('.inner').append('<p>Ветал</p>');
                 break;
             case 12:
-                $('.inner').append('<p>немного текста о 13 человеке</p>');
+                $('.inner').append('<p>Рыжая</p>');
                 break;
             case 13:
-                $('.inner').append('<p>немного текста о 14 человеке</p>');
+                $('.inner').append('<p>Оля</p>');
                 break;
             case 14:
-                $('.inner').append('<p>немного текста о 15 человеке</p>');
+                $('.inner').append('<p>Ниакого</p>');
                 break;
             case 15:
-                $('.inner').append('<p>немного текста о 16 человеке</p>');
+            $('.inner').append('<p>Регина</p>');
+            break;
+            case 16:
+                $('.inner').append('<p>Андрей</p>');
                 break;
 }
     } else {
@@ -81,9 +82,9 @@ console.log(div)
         offset = 0;
 
     }
-    if (step + 1 == slides.length) {
-        step = 0;
-        offset = 0;
+    if (step + 1 == slides.length-1) {
+        step = 1;
+        offset = 1;
     } else {
         step++;
     }
