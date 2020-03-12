@@ -62,7 +62,7 @@ console.log(div)
                 $('.inner').append('<p>Ветал</p>');
                 break;
             case 12:
-                $('.inner').append('<p>Рыжая</p>');
+                $('.inner').append('<p>Даша</p>');
                 break;
             case 13:
                 $('.inner').append('<p>Оля</p>');
