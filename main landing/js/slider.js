@@ -16,8 +16,20 @@ for (let i = 0; i<slides.length; i++){
 line.style.width = lineWidth+'px';
 console.log(widthArray);
 
+
+
+
+
+
+
+
+
 line.onclick=function () {
     div = lineWidth - sliderWidth - (offset + widthArray[step]);
+
+    setTimeout(function(){
+        $('slider').action('click');
+    }, 1000);
 
     if (div >= 1) {
         $('.inner').empty();
@@ -28,53 +40,70 @@ console.log(div)
         console.log(step)
         switch (step) {
 
+
             case 1:
                 $('.inner').append('<p>Сашка</p>');
+
                 break;
             case 2:
                 $('.inner').append('<p>Димка</p>');
+
                 break;
             case 3:
                 $('.inner').append('<p>Стас!</p>');
+
                 break;
             case 4:
                 $('.inner').append('<p>Серега</p>');
+
                 break;
             case 5:
                 $('.inner').append('<p>Марина</p>');
+
                 break;
             case 6:
                 $('.inner').append('<p>Рома</p>');
+
                 break;
             case 7:
                 $('.inner').append('<p>еще один Серега</p>');
+
                 break;
             case 8:
                 $('.inner').append('<p>Влад</p>');
+
                 break;
             case 9:
                 $('.inner').append('<p>Свят</p>');
+
                 break;
             case 10:
                 $('.inner').append('<p>Ира</p>');
+
                 break;
             case 11:
                 $('.inner').append('<p>Ветал</p>');
+
                 break;
             case 12:
                 $('.inner').append('<p>Даша</p>');
+
                 break;
             case 13:
                 $('.inner').append('<p>Оля</p>');
+
                 break;
             case 14:
                 $('.inner').append('<p>Ниакого</p>');
+
                 break;
             case 15:
             $('.inner').append('<p>Регина</p>');
+
             break;
             case 16:
                 $('.inner').append('<p>Андрей</p>');
+
                 break;
 }
     } else {
